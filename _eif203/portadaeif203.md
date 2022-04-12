@@ -10,4 +10,4 @@ layout: default
 
 Esta es una prueba.
 
-[Atrás](./)
+[Devolverse](./)
