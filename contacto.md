@@ -8,3 +8,7 @@
 ## Telegram
 
 [@isaac_003](https://t.me/isaac_003)
+
+## Discord
+
+[Isaac0321#3640](https://discordapp.com/users/Isaac0321#3640)
