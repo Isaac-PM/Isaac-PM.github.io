@@ -4,7 +4,6 @@
 
 ## I Ciclo 2022
 
-Esta es una prueba.
+¡Vaya! Está muy vacío por acá...
 
-
-[Go back](./)
+[Go back](./index.md)
