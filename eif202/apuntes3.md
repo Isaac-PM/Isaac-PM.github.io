@@ -180,10 +180,41 @@ Toma las salidas resultantes de determinadas puertas lógicas y se combinan e ot
 
 <center><img src="/eif202/images/ejemplo1.svg" width="600"/></center>
 
+Se observa cómo al combinar las salidas de las diferentes compuertas se obtiene un resultado lógico.
 
+### Obtener todas las salidas posibles de un circuito
 
+<center><img src="/eif202/images/ejemplo2.svg" width="600"/></center>
 
+1. Se deben considerar las combinaciones posibles de este, iniciando por los valores que pueden tomar las entradas simples A, B y C, al ser únicamente tres entradas y dos posibles valores: 2<sup>3</sup> = 8, son ocho variaciones de tres entradas.
+2. Se arma una tabla que muestre las entradas simples (A, B y C), los valores intermedios (U, V y W) y finalmente la salida (X).
 
+| **A** | **B** | **C** | **U** | **V** | **W** | **X** |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|   0   |   0   |   0   |       |       |       |       |
+|   0   |   0   |   1   |       |       |       |       |
+|   0   |   1   |   0   |       |       |       |       |
+|   0   |   1   |   1   |       |       |       |       |
+|   1   |   0   |   0   |       |       |       |       |
+|   1   |   0   |   1   |       |       |       |       |
+|   1   |   1   |   0   |       |       |       |       |
+|   1   |   1   |   1   |       |       |       |       |
+
+Se evidencia cómo para lograr la **combinatoria correcta**, se hace uso de los 8 posibles estados de cada entrada, escribiéndolas de la siguiente manera: **en A** cuatro ceros, seguidos de cuatro unos; **en B** dos ceros, seguidos de dos unos, seguidos de dos ceros, seguidos de dos unos; **en C** unos y ceros intercalados.
+
+{:start="3"}
+3. Se observan las interacciones de las entradas con las puertas lógicas, y de las puertas lógicas entre sí, logrando el resultado en **X**.
+
+| **A** | **B** | **C** | **U** | **V** | **W** | **X** |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|   0   |   0   |   0   |   0   |   1   |   1   |   1   |
+|   0   |   0   |   1   |   0   |   0   |   0   |   1   |
+|   0   |   1   |   0   |   0   |   0   |   0   |   0   |
+|   0   |   1   |   1   |   0   |   0   |   0   |   1   |
+|   1   |   0   |   0   |   0   |   1   |   1   |   1   |
+|   1   |   0   |   1   |   0   |   0   |   0   |   1   |
+|   1   |   1   |   0   |   1   |   0   |   1   |   1   |
+|   1   |   1   |   1   |   1   |   0   |   1   |   0   |
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
 
