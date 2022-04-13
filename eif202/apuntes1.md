@@ -2,6 +2,9 @@
 title: "Conceptos básicos de electricidad"
 author: "Isaac Palma Medina"
 ---
+# Conceptos básicos de electricidad
+
+***
 
 # Átomo
 
