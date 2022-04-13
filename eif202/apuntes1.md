@@ -101,3 +101,7 @@ Establece una relación física matemática entre las magnitudes de un circuito.
 **R = V / I**, es **medida en ohmios (Ω)**.
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
+
+<br>
+
+[¡Regrésame!](/index.md)

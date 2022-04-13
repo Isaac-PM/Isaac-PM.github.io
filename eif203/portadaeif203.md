@@ -6,4 +6,6 @@
 
 ¡Vaya! Está muy vacío por acá...
 
-[Go back](./index.md)
+<br>
+
+[¡Regrésame!](/index.md)

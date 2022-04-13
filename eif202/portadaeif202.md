@@ -6,10 +6,12 @@
 
 ### Conceptos básicos de la electricidad
 
-[Ver documento](./eif202/apuntes1.md)
+[Ver documento](/eif202/apuntes1.md)
 
 ### Protección eléctrica de equipos y puertas lógicas
 
-[Ver documento](./eif202/apuntes2.md)
+[Ver documento](/eif202/apuntes2.md)
 
-[Go back](./index.md)
+<br>
+
+[¡Regrésame!](/index.md)
