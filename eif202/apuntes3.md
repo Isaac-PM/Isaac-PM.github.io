@@ -216,6 +216,8 @@ Se evidencia cómo para lograr la **combinatoria correcta**, se hace uso de los 
 |   1   |   1   |   0   |   1   |   0   |   1   |   1   |
 |   1   |   1   |   1   |   1   |   0   |   1   |   0   |
 
+<center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
+
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
 
 **[¡Regrésame!](/index)**
