@@ -22,8 +22,6 @@ Próximamente...
 
 [Contacto](/contacto.md)
 
-<br>
-
 ***
 
 <br>
