@@ -32,6 +32,6 @@ Próximamente...
 
 <center><sub><sup>Al usar, copiar o distribuir este proyecto o sus contenidos, usted acepta los términos anteriormente expuestos.</sup></sub></center>
 
-<center><sub><sup>Derechos reservados al equipo de [The Hacker theme](https://github.com/pages-themes/hacker)</sup></sub></center>
+<center><sub><sup>Derechos reservados al equipo de https://github.com/pages-themes/hacker</sup></sub></center>
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)

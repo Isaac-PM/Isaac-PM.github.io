@@ -68,7 +68,7 @@ La **corriente continua o directa (DC o CC)** es aquella que no oscila entre val
 
 # Ley de Coulomb
 
-La **carga eléctrica** (Q) es medida en **Coulombs (C)**. 1C = carga poseída por 6,25 x 10^18 electrones.
+La **carga eléctrica** (Q) es medida en **Coulombs (C)**. 1C = carga poseída por 6,25 x 10<sup>18</sup> electrones.
 
 ## Diferencia de potencial (voltaje)
 
