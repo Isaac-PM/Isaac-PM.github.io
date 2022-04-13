@@ -12,6 +12,4 @@
 
 [Ver documento](/eif202/apuntes2.md)
 
-<br>
-
-[¡Regrésame!](/index.md)
+**[¡Regrésame!](/index.md)**

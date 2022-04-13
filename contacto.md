@@ -13,6 +13,4 @@
 
 [Isaac0321#3640](https://discordapp.com/users/Isaac0321#3640)
 
-<br>
-
-[¡Regrésame!](/index.md)
+**[¡Regrésame!](/index)**

@@ -6,6 +6,4 @@
 
 ¡Vaya! Está muy vacío por acá...
 
-<br>
-
-[¡Regrésame!](/index.md)
+**[¡Regrésame!](/index)**
