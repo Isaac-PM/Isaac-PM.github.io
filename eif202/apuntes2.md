@@ -78,7 +78,31 @@ Los reguladores de voltaje colaboran a compensar las diferencias existentes en e
 9. Aquella tarjeta en mal funcionamiento hará que el equipo se detenga.
 10. Comprobar la línea Power Good con un multímetro.
 
-# Compuertas lógicas
+# Compuertas/puertas lógicas
+
+Producen resultados binarios, a partir de entradas binarias. Compuertas lógicas combinadas forman un **circuito combinacional**.
+
+## Tablas de verdad
+
+### Negación o puerta NOT
+
+Invierte el valor lógico de la entrada.
+
+| **Entrada** | **Salida** |
+|:-----------:|:----------:|
+|      0      |      1     |
+|      1      |      0     |
+
+**Símbolo**
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/NOT_ANSI.svg/1200px-NOT_ANSI.svg.png)
+
+### Y o puerta AND
+
+
+
+
+
 
 
 
