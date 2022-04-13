@@ -8,7 +8,13 @@
 
 [EIF203 - Estructuras discretas](eif203/portadaeif203.md)
 
-[EIF203 - Programación II](eif204/portadaeif204.md)
+[EIF204 - Programación II](eif204/portadaeif204.md)
+
+***
+
+## Proyectos personales
+
+Próximamente...
 
 ***
 
@@ -16,7 +22,11 @@
 
 [Contacto](/contacto.md)
 
+<br>
+
 ***
+
+<br>
 
 <center><sub><sup>Esta página web fue creada con fines académicos. De ninguna manera representa o vincula oficialmente a alguna institución.</sup></sub></center>
 
@@ -26,4 +36,6 @@
 
 <center><sub><sup>Al usar, copiar o distribuir este proyecto o sus contenidos, usted acepta los términos anteriormente expuestos.</sup></sub></center>
 
-<center>![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)</center>
+<br>
+
+![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
