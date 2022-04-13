@@ -95,6 +95,8 @@ Invierte el valor lógico de la entrada.
 
 **Símbolo**
 
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/NOT_ANSI.svg/1200px-NOT_ANSI.svg.png" width="200"/></center>
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/NOT_ANSI.svg/1200px-NOT_ANSI.svg.png)
 
 ### Y o puerta AND
