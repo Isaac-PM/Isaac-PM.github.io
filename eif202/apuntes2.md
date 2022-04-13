@@ -95,14 +95,84 @@ Invierte el valor lógico de la entrada.
 
 **Símbolo**
 
-<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/NOT_ANSI.svg/1200px-NOT_ANSI.svg.png" width="200"/></center>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Not-gate-en.svg/500px-Not-gate-en.svg.png?20060601181214" width="200"/></center>
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/NOT_ANSI.svg/1200px-NOT_ANSI.svg.png)
+### Conjunción o puerta AND
 
-### Y o puerta AND
+Une dos entradas y devuelve un resultado.
 
+| **Entrada A** | **Entrada B** | **Salida** |
+|:-------------:|:-------------:|:----------:|
+|       0       |       0       |      0     |
+|       0       |       1       |      0     |
+|       1       |       0       |      0     |
+|       1       |       1       |      1     |
 
+**Símbolo**
 
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Logic-gate-and-us.svg/1280px-Logic-gate-and-us.svg.png" width="200"/></center>
+
+### Disyunción o puerta OR
+
+Une dos entradas y devuelve un resultado.
+
+| **Entrada A** | **Entrada B** | **Salida** |
+|:-------------:|:-------------:|:----------:|
+|       0       |       0       |      0     |
+|       0       |       1       |      1     |
+|       1       |       0       |      1     |
+|       1       |       1       |      1     |
+
+**Símbolo**
+
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Or-gate-en.svg/1200px-Or-gate-en.svg.png" width="200"/></center>
+
+### Conjunción negada o puerta NAND
+
+Produce una salida falsa únicamente, si todas sus entradas son verdaderas. 
+
+| **Entrada A** | **Entrada B** | **Salida** |
+|:-------------:|:-------------:|:----------:|
+|       0       |       0       |      1     |
+|       0       |       1       |      1     |
+|       1       |       0       |      1     |
+|       1       |       1       |      0     |
+
+**Símbolo**
+
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Nand-gate-en.svg/1200px-Nand-gate-en.svg.png" width="200"/></center>
+
+### Disyunción negada o puerta NOR
+
+Produce una salida verdadera, únicamente si todas sus entradas son falsas. 
+
+| **Entrada A** | **Entrada B** | **Salida** |
+|:-------------:|:-------------:|:----------:|
+|       0       |       0       |      1     |
+|       0       |       1       |      0     |
+|       1       |       0       |      0     |
+|       1       |       1       |      0     |
+
+**Símbolo**
+
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Nor-gate-en.svg" width="200"/></center>
+
+### Puerta XOR
+
+Produce una salida verdadera, únicamente si una de sus entradas es verdadera.  Si ambas son falsas, o ambas verdaderas, devuelve falso.
+
+| **Entrada A** | **Entrada B** | **Salida** |
+|:-------------:|:-------------:|:----------:|
+|       0       |       0       |      0     |
+|       0       |       1       |      1     |
+|       1       |       0       |      1     |
+|       1       |       1       |      0     |
+
+**Símbolo**
+
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Xor-gate-en.svg/1200px-Xor-gate-en.svg.png" width="200"/></center>
+
+## Circuitos combinacionales
 
 
 

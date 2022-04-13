@@ -18,7 +18,7 @@ Próximamente...
 
 ***
 
-## Social
+## Comunicación
 
 [Contacto](/contacto.md)
 
