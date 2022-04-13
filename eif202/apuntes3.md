@@ -174,6 +174,12 @@ Produce una salida verdadera, únicamente si una de sus entradas es verdadera.  
 
 ## Circuitos combinacionales
 
+Toma las salidas resultantes de determinadas puertas lógicas y se combinan e otra puerta buscando su salida.
+
+### Ejemplo
+
+<center><img src="/eif202/images/ejemplo1.svg" width="600"/></center>
+
 
 
 

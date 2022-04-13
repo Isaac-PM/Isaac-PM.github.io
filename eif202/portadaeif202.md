@@ -10,6 +10,6 @@
 
 ### Protección eléctrica de equipos y puertas lógicas
 
-[Ver documento](/eif202/apuntes2)
+[Ver documento](/eif202/apuntes3)
 
 **[¡Regrésame!](/index)**
