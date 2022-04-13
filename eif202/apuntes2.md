@@ -18,7 +18,7 @@ Por medio de los cables se entregan distintos voltajes, los cuales van desde los
 
 El ventilador de la PSU debería girar al realizar el puente entre los pines.
 
-![](/eif202/images/puente.png)
+<center><img src="/eif202/images/puente.png" width="400"/></center>
 
 Otro nombre válido para las fuentes de poder son los **transformadores**.
 
@@ -48,13 +48,13 @@ Se "suaviza" la CC y se le añade "calidad", por medio de **capacitores**.
 
 Por medio de distintos componentes y **circuitos integrados**, la corriente es ajustada para las necesidades del aparato, obtiene finalmente su forma lineal y constante.
 
-![](/eif202/images/rectificacion.jpg)
+<center><img src="/eif202/images/rectificacion.jpg" width="400"/></center>
 
 ## Tipos de fuente de poder
 
 ### Fuentes AT
 
-![](/eif202/images/at.jpg)
+<center><img src="/eif202/images/at.jpg" width="400"/></center>
 
 Las siglas tienen el significado de **Advanced Technology**, surge como un estándar por parte de IBM, consistiendo en una placa de unos 100mm. Comienza a ser descontinuado en los años 90.
 
@@ -69,7 +69,7 @@ Las siglas tienen el significado de **Advanced Technology**, surge como un está
 
 ### Fuentes ATX
 
-![](/eif202/images/atx.jpg)
+<center><img src="/eif202/images/atx.jpg" width="600"/></center>
 
 Las siglas significan **Advanced Technology Extended**, hace referencia a un **factor de forma** que determina yu estandariza las dimensiones, lugar de conectores y puertos I/O.
 
