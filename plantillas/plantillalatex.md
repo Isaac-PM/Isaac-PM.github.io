@@ -37,7 +37,6 @@ Se utiliza [natbib](https://es.overleaf.com/learn/latex/Bibliography_management_
 \selectlanguage{spanish}
 \useunder{\uline}{\ul}{}
 \newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
-```
 
 ```latex
 % Portada
@@ -67,37 +66,40 @@ Se utiliza [natbib](https://es.overleaf.com/learn/latex/Bibliography_management_
 \renewcommand{\listtablename}{\largeÍndice de tablas}
 \listoftables
 \newpage
-```
 
 ```latex
 % Cuerpo
 \pagenumbering{arabic}
 \section{\large Título I}
-```
 
 ```latex
 \noindent \maskCitet{cervantes1999}\\
-En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.
+En un lugar de la Mancha, de cuyo nombre no quiero acordarme, 
+no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, 
+adarga antigua, rocín flaco y galgo corredor.
 \subsection{Título II} 
-Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda.
-```
+Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, 
+lantejas los viernes, algún palomino de añadidura los domingos, 
+consumían las tres partes de su hacienda.
 
 ```latex
 \subsubsection{Título III}
-El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino.
-```
+El resto della concluían sayo de velarte, calzas de velludo para las fiestas, 
+con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino.
 
 ```latex
 \paragraph{Título IV}
-Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera.
-```
+Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, 
+y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera.
 
 ```latex
 \myparagraph{Título IV ii}
-Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. 
+Frisaba la edad de nuestro hidalgo con los cincuenta años; 
+era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. 
 \subparagraph{Título V}
-Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque por conjeturas verosímiles se deja entender que se llamaba Quijana.
-```
+Quieren decir que tenía el sobrenombre de Quijada, o Quesada, 
+que en esto hay alguna diferencia en los autores que deste caso escriben; 
+aunque por conjeturas verosímiles se deja entender que se llamaba Quijana.
 
 ```latex
 \newpage
