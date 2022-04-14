@@ -138,4 +138,4 @@ Son aquellas características que permiten la correcta integración física y el
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
 
-**[¡Regrésame!](/index)**
+**[¡Regrésame!](/eif202/portadaeif202)**

@@ -220,4 +220,4 @@ Se evidencia cómo para lograr la **combinatoria correcta**, se hace uso de los 
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
 
-**[¡Regrésame!](/index)**
+**[¡Regrésame!](/eif202/portadaeif202)**
