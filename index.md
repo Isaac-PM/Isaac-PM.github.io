@@ -18,6 +18,8 @@
 
 [Plantilla APA-7 LaTeX](plantillas/plantillalatex.md)
 
+[Instalación desde cero de Arch Linux]()
+
 ***
 
 ## Comunicación
