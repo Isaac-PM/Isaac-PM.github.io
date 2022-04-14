@@ -14,7 +14,9 @@
 
 ## Proyectos personales
 
-Próximamente...
+[Plantilla APA-7 Microsoft Word](plantillas/plantillaword.md)
+
+[Plantilla APA-7 LaTeX](plantillas/plantillalatex.md)
 
 ***
 
