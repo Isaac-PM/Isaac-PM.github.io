@@ -2,7 +2,7 @@
 
 ## Vista previa
 
-<iframe src="https://drive.google.com/file/d/1dSIwJv5BhXfut_IVmhsTW-D7AH31EqW5/preview" width="640" height="480" allow="autoplay"></iframe>
+<center><iframe src="https://drive.google.com/file/d/1dSIwJv5BhXfut_IVmhsTW-D7AH31EqW5/preview" width="832" height="624" allow="autoplay"></iframe></center>
 
 ## Descarga
 
