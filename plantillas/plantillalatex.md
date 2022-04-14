@@ -38,7 +38,6 @@ Se utiliza [natbib](https://es.overleaf.com/learn/latex/Bibliography_management_
 \useunder{\uline}{\ul}{}
 \newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
 
-```latex
 % Portada
 \thispagestyle{empty}
 \title{\Large Título del documento}
