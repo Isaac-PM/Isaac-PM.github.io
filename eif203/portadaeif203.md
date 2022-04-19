@@ -4,6 +4,8 @@
 
 ## I Ciclo 2022
 
-¡Vaya! Está muy vacío por acá...
+### Relaciones de recurrencia
+
+[Ver documento](/eif203/rrprimera)
 
 **[¡Regrésame!](/index)**
