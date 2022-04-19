@@ -161,19 +161,19 @@ En algún momento el árbol llegará a los casos base, y la cantidad de **nodos*
 
 ### Resolución de una HLCC(2)
 
-0. Dada una HLCC(2) de la forma:
+1. Dada una HLCC(2) de la forma:
 
 > f<sub>n</sub> = af<sub>n - 1</sub> + bf<sub>n - 2</sub>
 > f<sub>0</sub> y f<sub>1</sub>
 
-1. Encontrar el **polinomio característico**  de la RR, denotado **pc(x)**:
+2. Encontrar el **polinomio característico**  de la RR, denotado **pc(x)**:
 
-> p(x) = x<sup>2</sup> - ax
+> p(x) = x<sup>2</sup> - ax - b
 
-   1. Primeramente se escribe: x<sup>2</sup>
-   2. Después a se hace un cambio de signo a la constante de f<sub>n - 1</sub> y se añade una equis: -ax
-   3. Finalmente se cambia el signo a la constante de f<sub>n - 2</sub> y se designa como la constante de la cuadrática: -b
-   4. > p(x) = x<sup>2</sup> - ax - b
+   2. Primeramente se escribe: x<sup>2</sup>
+   3. Después a se hace un cambio de signo a la constante de f<sub>n - 1</sub> y se añade una equis: -ax
+   4. Finalmente se cambia el signo a la constante de f<sub>n - 2</sub> y se designa como la constante de la cuadrática: -b
+   5. > p(x) = x<sup>2</sup> - ax - b
 
 2. Resolver **pc(x)**, raíces:
    1. **Primer caso:** las raíces son distintas, r<sub>1</sub> != r<sub>2</sub>:
