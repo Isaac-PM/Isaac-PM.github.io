@@ -26,6 +26,8 @@ El **orden de recurrencia** es igual a la cantidad total de llamadas que una fun
 
 > f<sub>n</sub> = f<sub>n - 1</sub> + f<sub>n - 2</sub>
 
+A un mayor **orden de recursión** se complica determinar su **orden de crecimiento** así como eliminar la recursión de esa función / algoritmo.
+
 ## Inconveniente
 
 La **recurrencia** en un código puede consumir demasiador recursos, y ser ineficiente, por lo que se trata de pasar de un **modelo recurrente** a uno **iterativo**, **resolviendo la RR**.
@@ -106,6 +108,60 @@ def s_iter(n:int) -> int :
 ```
 
 # HLCC(2) y DyC
+
+## HLCC(2)
+
+Se trabajan funciones sencillaz, con una **forma general**. Dichas funciones **fáciles de reolver** se denominan **Homogeneas Lineales de Coeficientes Constantes de Grado Dos (HLCC(2))**.
+
+La **"L"** en las siglas indica que de `n` se pasa a `n - 1` ó a `n - 2` y estos elementos se unen **sumando**.
+
+Las **"CC"** hacen referencia a que los elementos no pueden estar multiplicados por valores no constantes. Por ejemplo:
+
+> f<sub>n</sub> = nf<sub>n - 1</sub> + f<sub>n - 2</sub>
+
+La anterior, no cumple con los requisitos para ser considerada una HLCC(2), ya que el primer coeficiente no es constante (es `n`).
+
+Otro ejemplo:
+
+> f<sub>n</sub> = 3f<sub>n - 1</sub> * f<sub>n - 2</sub>
+
+La anterior, tampoco cumple con los requisitos para ser considerada una HLCC(2), ya que los elementos de la función no se ven unidos por una suma.
+
+Otro ejemplo:
+
+> f<sub>n</sub> = 3f<sub>n/2</sub> * f<sub>n - 1</sub>
+
+La anterior, no cumple con los requisitos, ya que sus elementos no van desde `n`  hasta `n - 1` ó `n - 2`, sino que hay uno indicado como `n/2`.
+
+Además, despues de las llamadas recursivas, **no deben aparecer** alrededor expresiones no recursivas, por ejemplo:
+
+> f<sub>n</sub> = nf<sub>n - 1</sub> + f<sub>n - 2</sub> + 2<sup>n</sup>
+
+La anterior se denota como una **expresión no homogenea**. Las expresiones que si cumplen, se denominan **homogeneas** y hacen referencia a la **"H"** en HLCC(2).
+
+> f<sub>n</sub> = nf<sub>n - 1</sub> + f<sub>n - 2</sub> + 1
+
+La anterior se conoce como **Hanoi**, y no cumple con los requisitos para consederarse **"fácil"**.
+
+***
+
+## Noción de un árbol
+
+Para comprender la complejidad de un algoritmo, se puede observar la profundidad que alcanza el arbol de llamadas recursivas.
+
+Un árbol es una estructura de datos que representa los subproblemas que un problema `n` debe resolver, de la siguiente manera:
+
+<center><img src="/eif203/images/arbol.svg" width="300"/></center>
+
+En algún momento el árbol llegará a los casos base, y la cantidad de **nodos** (esferas en el diagrama) será un indicador de la complejidad de este. Los **nodos** se unen por enlaces llamados **arcos**. 
+
+[Definición formal de árbol (próximanente)]()
+
+***
+
+### Resolución de una HLCC(2)
+
+
 
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
