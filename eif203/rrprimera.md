@@ -194,41 +194,58 @@ En algún momento el árbol llegará a los casos base, y la cantidad de **nodos*
 Desarrollo del polinomio característico
 
 > pc(x) = x<sup>2</sup> - 3x + 2
+
 > Raíces: pc(x) = (x - 2)(x - 1), r<sub>1</sub> = 2 y r<sub>2</sub> = 1
+
 > Se debe optar por el caso de raíces distintas: f<sub>n</sub> = α2<sup>n</sup> + β1<sup>n</sup>
 
 Se soluciona el caso anterior:
 
 > f<sub>n</sub> = α2<sup>n</sup> + β1<sup>n</sup>
+
 > f<sub>n</sub> = α2<sup>n</sup> + β1
+
 > f<sub>n</sub> = α2<sup>n</sup> + β, para todo n mayor o igual a 0
 
 Se encuentran α y β, usando los casos base:
 
 > Si n = 0 y f<sub>0</sub> = 1 entonces f<sub>0</sub> debe ser igual a α2<sup>n</sup> + β
+
 > 1 = α2<sup>0</sup> + β
+
 > 1 = α + β
 
 > Si n = 1 y f<sub>1</sub> = 3 entonces f<sub>1</sub> debe ser igual a α2<sup>n</sup> + β
+
 > 1 = α2<sup>1</sup> + β
+
 > 3 = α2 + β
 
 Se obtiene un sistema de ecuaciones:
 > 1 = α + β 
+
 > 3 = α2 + β
+
 > Empezando por la primera: 1 = α + β -> 1 - β = α 
+
 > Sustituyendo en la segunda: 3 = (1 - β)2 + β -> 3 = 2 - 2β + β -> 3 = 2 - β -> β = -1
+
 > Regresando a la primera: 1 = α + β -> 1 = α + -1 -> α = 2
 
 Respuesta:
 > f<sub>n</sub> = 2 * 2<sup>n</sup> + - 1
+
 > f<sub>n</sub> = 2<sup>n - 1</sup> - 1
+
 > f<sub>n</sub> = 2<sup>n - 1</sup> - 1, para todo n mayor o igual a 0
 
 Crecimiento:
 > f<sub>n</sub> = 2<sup>n - 1</sup> - 1, el 1 se descarta por ser una constante que no aporta al crecimiento
+
 > f<sub>n</sub> = 2<sup>n - 1</sup> -> f<sub>n</sub> = 2<sup>n</sup> * 2<sup>1</sup>, el 2<sup>1</sup> también puede ser descartado
+
 > f<sub>n</sub> = 2<sup>n</sup>
+
 > f<sub>n</sub> ~ O(2<sup>n</sup>)
 
 ## DyC (divide y conquista)
