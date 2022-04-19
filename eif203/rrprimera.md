@@ -18,7 +18,7 @@ def factorial(n) :
         return (n * factorial(n - 1))
 ```
 
-La función anterior (`factorial()`), es recursiva, ya que en su interior posee una llamada a si misma.
+La función anterior (`factorial()`), es recursiva, ya que en su interior posee una llamada a sí misma.
 
 ## Orden de recurrencia
 
@@ -30,15 +30,15 @@ A un mayor **orden de recursión** se complica determinar su **orden de crecimie
 
 ## Inconveniente
 
-La **recurrencia** en un código puede consumir demasiador recursos, y ser ineficiente, por lo que se trata de pasar de un **modelo recurrente** a uno **iterativo**, **resolviendo la RR**.
+La **recurrencia** en un código puede consumir demasiados recursos, y ser ineficiente, por lo que se trata de pasar de un **modelo recurrente** a uno **iterativo**, **resolviendo la RR**.
 
 ## Caso base
 
-Se dice **caso base** a aquel momento donde la función no presenta más recurrencia, es decir el caso base es aquel donde la función no se llama más a si misma. Por ejemplo en `factorial()`, el caso base es cuando `n` es igual a `1`.
+Se dice **caso base** a aquel momento donde la función no presenta más recurrencia, es decir el caso base es aquel donde la función no se llama más a sí misma. Por ejemplo en `factorial()`, el caso base es cuando `n` es igual a `1`.
 
 # Resolviendo una RR
 
-## Susitución hacia atrás
+## Sustitución hacia atrás
 
 La idea de resolver una RR por **sustitución hacia atrás** es empezar en `n` y llegar a los **casos base**.
 
@@ -93,7 +93,7 @@ Usando la misma función, se puede optar por otro método denominado **sustituci
 
 ### Implementación iterativa
 
-De la misma manera que con la sustitución hacia atrás, se puede obtener del proceso anterior una manera de resolver la RR. Sin embargo, la **implementación iterativa no usa recursión**, por lo que necesita de un analisis más profundo del ejercicio. De la siguiente manera:
+De la misma manera que con la sustitución hacia atrás, se puede obtener del proceso anterior una manera de resolver la RR. Sin embargo, la **implementación iterativa no usa recursión**, por lo que necesita de un análisis más profundo del ejercicio. De la siguiente manera:
 
 ```python
 def s_iter(n:int) -> int :
@@ -111,47 +111,47 @@ def s_iter(n:int) -> int :
 
 ## HLCC(2)
 
-Se trabajan funciones sencillaz, con una **forma general**. Dichas funciones **fáciles de reolver** se denominan **Homogeneas Lineales de Coeficientes Constantes de Grado Dos (HLCC(2))**.
+Se trabajan funciones sencillas, con una **forma general**. Dichas funciones **fáciles de resolver** se denominan **Homogéneas Lineales de Coeficientes Constantes de Grado Dos (HLCC(2))**.
 
 La **"L"** en las siglas indica que de `n` se pasa a `n - 1` ó a `n - 2` y estos elementos se unen **sumando**.
 
-Las **"CC"** hacen referencia a que los elementos no pueden estar multiplicados por valores no constantes. Por ejemplo:
+Las **"CC"** hacen referencia a que los elementos no pueden estar multiplicados por valores no constantes. **Por ejemplo:**
 
 > f<sub>n</sub> = nf<sub>n - 1</sub> + f<sub>n - 2</sub>
 
 La anterior, no cumple con los requisitos para ser considerada una HLCC(2), ya que el primer coeficiente no es constante (es `n`).
 
-Otro ejemplo:
+### Otro ejemplo:
 
 > f<sub>n</sub> = 3f<sub>n - 1</sub> * f<sub>n - 2</sub>
 
 La anterior, tampoco cumple con los requisitos para ser considerada una HLCC(2), ya que los elementos de la función no se ven unidos por una suma.
 
-Otro ejemplo:
+### Otro ejemplo:
 
 > f<sub>n</sub> = 3f<sub>n/2</sub> * f<sub>n - 1</sub>
 
 La anterior, no cumple con los requisitos, ya que sus elementos no van desde `n`  hasta `n - 1` ó `n - 2`, sino que hay uno indicado como `n/2`.
 
-Además, despues de las llamadas recursivas, **no deben aparecer** alrededor expresiones no recursivas, por ejemplo:
+Además, después de las llamadas recursivas, **no deben aparecer** alrededor expresiones no recursivas, por **ejemplo**:
 
 > f<sub>n</sub> = nf<sub>n - 1</sub> + f<sub>n - 2</sub> + 2<sup>n</sup>
 
-La anterior se denota como una **expresión no homogenea**. Las expresiones que si cumplen, se denominan **homogeneas** y hacen referencia a la **"H"** en HLCC(2).
+La anterior se denota como una **expresión no homogénea**. Las expresiones que si cumplen, se denominan **homogéneas** y hacen referencia a la **"H"** en HLCC(2).
 
 > f<sub>n</sub> = nf<sub>n - 1</sub> + f<sub>n - 2</sub> + 1
 
-La anterior se conoce como **Hanoi**, y no cumple con los requisitos para consederarse **"fácil"**.
+La anterior se conoce como **Hanoi**, y no cumple con los requisitos para considerarse **"fácil"**.
 
 ***
 
 ## Noción de un árbol
 
-Para comprender la complejidad de un algoritmo, se puede observar la profundidad que alcanza el arbol de llamadas recursivas.
+Para comprender la complejidad de un algoritmo, se puede observar la profundidad que alcanza el árbol de llamadas recursivas.
 
 Un árbol es una estructura de datos que representa los subproblemas que un problema `n` debe resolver, de la siguiente manera:
 
-<center><img src="/eif203/images/arbol.svg" width="300"/></center>
+<center><img src="/eif203/images/arbol.svg" width="400"/></center>
 
 En algún momento el árbol llegará a los casos base, y la cantidad de **nodos** (esferas en el diagrama) será un indicador de la complejidad de este. Los **nodos** se unen por enlaces llamados **arcos**. 
 
@@ -161,6 +161,132 @@ En algún momento el árbol llegará a los casos base, y la cantidad de **nodos*
 
 ### Resolución de una HLCC(2)
 
+0. Dada una HLCC(2) de la forma:
+
+> f<sub>n</sub> = af<sub>n - 1</sub> + bf<sub>n - 2</sub>
+> f<sub>0</sub> y f<sub>1</sub>
+
+1. Encontrar el **polinomio característico**  de la RR, denotado **pc(x)**:
+
+> p(x) = x<sup>2</sup> - ax
+
+   1. Primeramente se escribe: x<sup>2</sup>
+   2. Después a se hace un cambio de signo a la constante de f<sub>n - 1</sub> y se añade una equis: -ax
+   3. Finalmente se cambia el signo a la constante de f<sub>n - 2</sub> y se designa como la constante de la cuadrática: -b
+   4. > p(x) = x<sup>2</sup> - ax - b
+
+2. Resolver **pc(x)**, raíces:
+   1. **Primer caso:** las raíces son distintas, r<sub>1</sub> != r<sub>2</sub>:
+      1. > Solución: f<sub>n</sub> = αr<sub>1</sub><sup>n</sup> + βr<sub>2</sub><sup>n</sup>, para todo n mayor o igual a 0
+      2. Donde en lo anterior, alfa y beta son constantes que dependen de los casos base
+   2. **Segundo caso:** las raíces son iguales, r<sub>1</sub> = r<sub>2</sub> = r:
+      1. > f<sub>n</sub> = αr<sup>n</sup> + βnr<sup>n</sup>, para todo n mayor o igual a 0
+      2. Donde en lo anterior, alfa y beta son constantes que dependen de los casos base
+
+3. Resolución del paso 2:
+
+#### Ejemplo:
+
+> Dada: f<sub>n</sub> = 3f<sub>n - 1</sub> - 2f<sub>n - 2</sub>, si n > 1
+
+> Casos base: f<sub>0</sub> = 1 y f<sub>1</sub> = 3
+
+Desarrollo del polinomio característico
+
+> pc(x) = x<sup>2</sup> - 3x + 2
+> Raíces: pc(x) = (x - 2)(x - 1), r<sub>1</sub> = 2 y r<sub>2</sub> = 1
+> Se debe optar por el caso de raíces distintas: f<sub>n</sub> = α2<sup>n</sup> + β1<sup>n</sup>
+
+Se soluciona el caso anterior:
+
+> f<sub>n</sub> = α2<sup>n</sup> + β1<sup>n</sup>
+> f<sub>n</sub> = α2<sup>n</sup> + β1
+> f<sub>n</sub> = α2<sup>n</sup> + β, para todo n mayor o igual a 0
+
+Se encuentran α y β, usando los casos base:
+
+> Si n = 0 y f<sub>0</sub> = 1 entonces f<sub>0</sub> debe ser igual a α2<sup>n</sup> + β
+> 1 = α2<sup>0</sup> + β
+> 1 = α + β
+
+> Si n = 1 y f<sub>1</sub> = 3 entonces f<sub>1</sub> debe ser igual a α2<sup>n</sup> + β
+> 1 = α2<sup>1</sup> + β
+> 3 = α2 + β
+
+Se obtiene un sistema de ecuaciones:
+> 1 = α + β 
+> 3 = α2 + β
+> Empezando por la primera: 1 = α + β -> 1 - β = α 
+> Sustituyendo en la segunda: 3 = (1 - β)2 + β -> 3 = 2 - 2β + β -> 3 = 2 - β -> β = -1
+> Regresando a la primera: 1 = α + β -> 1 = α + -1 -> α = 2
+
+Respuesta:
+> f<sub>n</sub> = 2 * 2<sup>n</sup> + - 1
+> f<sub>n</sub> = 2<sup>n - 1</sup> - 1
+> f<sub>n</sub> = 2<sup>n - 1</sup> - 1, para todo n mayor o igual a 0
+
+Crecimiento:
+> f<sub>n</sub> = 2<sup>n - 1</sup> - 1, el 1 se descarta por ser una constante que no aporta al crecimiento
+> f<sub>n</sub> = 2<sup>n - 1</sup> -> f<sub>n</sub> = 2<sup>n</sup> * 2<sup>1</sup>, el 2<sup>1</sup> también puede ser descartado
+> f<sub>n</sub> = 2<sup>n</sup>
+> f<sub>n</sub> ~ O(2<sup>n</sup>)
+
+## DyC (divide y conquista)
+
+Consiste en dividir un problema en varios de menor tamaño, con la finalidad de que resolviendo esos subproblemas se puede resolver el problema principal.
+
+### Ejemplo de búsqueda binaria
+
+Dada la lista `a = [10, 15, 21, 25, 35, 40, 45]`, ordenana y con elementos no repetidos, se busca `x = 19`.
+
+| **0** | **1** | **2** | **3** | **4** | **5** | **6** |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|   10  |   15  |   21  |   25  |   35  |   40  |   45  |
+
+Se parte del punto medio y se evalúa si este es mayor o menor a `x`, de ahí se toma la decisión de buscar en el lado de la lista donde `x` posiblemente esté.
+
+> Punto medio es 25, y 19 es menor que 25, por lo que se busca al lado **izquierdo** de la lista.
+
+| **0** | **1** | **2** |
+|:-----:|:-----:|:-----:|
+|   10  |   15  |   21  |
+
+> Punto medio es 15, y 19 es mayor que 15, por lo que se busca al lado **derecho** de la lista.
+
+| **2** |
+|:-----:|
+|   21  |
+
+> 21 es distinto de 19, por lo que este no existe en la lista y se retorna -1.
+
+#### Programación en Python
+
+```python
+def busbin(x:int, a:list) : 
+    def buscando(left, right) :
+        if left > right :
+           return -1 # No encontrado
+        m = (right + left) // 2 # Punto medio
+        if x == a[m] :
+            return m # Encontrado
+        if x < a[m] :
+            return buscando(left, m - 1)
+            # Buscando al lado izquierdo
+        return(m + 1, right) # Omite preguntar x > a[m]
+        # Buscando al lado derecho
+    return buscando(0, len(a) - 1)
+
+x = 19
+a = [10, 15, 21, 25, 35, 40, 45]
+print(busbin(x, a))
+# Salida: -1
+```
+
+#### Tiempo de corrida de busbin(...)
+1. El tamaño de los datos es `len(a)`
+2. Operaciones (comparaciones entre `x` y elementos de la lista):
+   1. T<sub>==</sub> = T<sub><</sub> = O(1)
+3. 1:38:18
 
 
 
