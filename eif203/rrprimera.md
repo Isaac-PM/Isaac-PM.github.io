@@ -94,15 +94,6 @@ Usando la misma función, se puede optar por otro método denominado **sustituci
 De la misma manera que con la sustitución hacia atrás, se puede obtener del proceso anterior una manera de resolver la RR. Sin embargo, la **implementación iterativa no usa recursión**, por lo que necesita de un analisis más profundo del ejercicio. De la siguiente manera:
 
 ```python
-def s_rec(n:int) -> int :
-    if n == 0 : # Inclusión de los casos base.
-        return 0
-    if n == 1 : # Inclusión de los casos base.
-        return -5
-    return 6 * s_rec(n - 2) - 5 * s_rec(n - 1) + 3 * n + 1 # Llamada recursiva.
-```
-
-```python
 def s_iter(n:int) -> int :
     if n == 0 : # Inclusión de los casos base.
         return 0
