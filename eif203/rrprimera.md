@@ -254,7 +254,7 @@ Consiste en dividir un problema en varios de menor tamaño, con la finalidad de 
 
 ### Ejemplo de búsqueda binaria
 
-Dada la lista `a = [10, 15, 21, 25, 35, 40, 45]`, ordenana y con elementos no repetidos, se busca `x = 19`.
+Dada la lista `a = [10, 15, 21, 25, 35, 40, 45]`, ordenada y con elementos no repetidos, se busca `x = 19`.
 
 | **0** | **1** | **2** | **3** | **4** | **5** | **6** |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -303,9 +303,14 @@ print(busbin(x, a))
 1. El tamaño de los datos es `len(a)`
 2. Operaciones (comparaciones entre `x` y elementos de la lista):
    1. T<sub>==</sub> = T<sub><</sub> = O(1)
-3. 1:38:18
+3. Relación de recurrencia:
+   1. T<sub>busbin</sub>(n) = T<sub>buscando</sub>(n)
+   2. El tiempo de T<sub>buscando</sub>(n) se determina según:
+> <center><img src="/eif203/images/whboard.png" width=""/></center>
 
-
+4. Teorema de MT (Master theorem, pendiente)
+5. Teorema de MT (Master theorem, pendiente)
+   1. T<sub>buscando</sub>(n) ~ O(log(n))
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
 
