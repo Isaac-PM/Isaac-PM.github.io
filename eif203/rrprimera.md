@@ -306,7 +306,8 @@ print(busbin(x, a))
 3. Relación de recurrencia:
    1. T<sub>busbin</sub>(n) = T<sub>buscando</sub>(n)
    2. El tiempo de T<sub>buscando</sub>(n) se determina según:
-> <center>![](/eif203/images/whboard.png)</center>
+
+<center>![](/eif203/images/whboard.png)</center>
 
 1. Teorema de MT (Master theorem, pendiente)
 2. Teorema de MT (Master theorem, pendiente)
