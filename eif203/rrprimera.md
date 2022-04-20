@@ -303,7 +303,7 @@ print(busbin(x, a))
 #### Tiempo de corrida de busbin(...)
 1. El tamaño de los datos es `len(a)`
 2. Operaciones (comparaciones entre `x` y elementos de la lista):
-   1. T<sub>==</sub> = T<sub><</sub> = O(1)
+   1. T<sub>==</sub> = T<sub> < </sub> = O(1)
 3. Relación de recurrencia:
    1. T<sub>busbin</sub>(n) = T<sub>buscando</sub>(n)
    2. El tiempo de T<sub>buscando</sub>(n) se determina según:
