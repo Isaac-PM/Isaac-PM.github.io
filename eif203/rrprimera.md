@@ -168,9 +168,7 @@ En algún momento el árbol llegará a los casos base, y la cantidad de **nodos*
 
 {:start="2"}
 2. Encontrar el **polinomio característico**  de la RR, denotado **pc(x)**:
-
 > pc(x) = x<sup>2</sup> - ax - b
-
    1. Primeramente se escribe: x<sup>2</sup>
    2. Después a se hace un cambio de signo a la constante de f<sub>n - 1</sub> y se añade una equis: -ax
    3. Finalmente se cambia el signo a la constante de f<sub>n - 2</sub> y se designa como la constante de la cuadrática: -b
