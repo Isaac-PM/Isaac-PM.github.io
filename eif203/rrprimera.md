@@ -166,16 +166,18 @@ En algún momento el árbol llegará a los casos base, y la cantidad de **nodos*
 > f<sub>n</sub> = af<sub>n - 1</sub> + bf<sub>n - 2</sub>
 > f<sub>0</sub> y f<sub>1</sub>
 
+{:start="2"}
 2. Encontrar el **polinomio característico**  de la RR, denotado **pc(x)**:
 
-> p(x) = x<sup>2</sup> - ax - b
+> pc(x) = x<sup>2</sup> - ax - b
 
-   2. Primeramente se escribe: x<sup>2</sup>
-   3. Después a se hace un cambio de signo a la constante de f<sub>n - 1</sub> y se añade una equis: -ax
-   4. Finalmente se cambia el signo a la constante de f<sub>n - 2</sub> y se designa como la constante de la cuadrática: -b
-   5. > p(x) = x<sup>2</sup> - ax - b
+   1. Primeramente se escribe: x<sup>2</sup>
+   2. Después a se hace un cambio de signo a la constante de f<sub>n - 1</sub> y se añade una equis: -ax
+   3. Finalmente se cambia el signo a la constante de f<sub>n - 2</sub> y se designa como la constante de la cuadrática: -b
+   4. > pc(x) = x<sup>2</sup> - ax - b
 
-2. Resolver **pc(x)**, raíces:
+{:start="3"}
+3. Resolver **pc(x)**, raíces:
    1. **Primer caso:** las raíces son distintas, r<sub>1</sub> != r<sub>2</sub>:
       1. > Solución: f<sub>n</sub> = αr<sub>1</sub><sup>n</sup> + βr<sub>2</sub><sup>n</sup>, para todo n mayor o igual a 0
       2. Donde en lo anterior, alfa y beta son constantes que dependen de los casos base
@@ -183,7 +185,8 @@ En algún momento el árbol llegará a los casos base, y la cantidad de **nodos*
       1. > f<sub>n</sub> = αr<sup>n</sup> + βnr<sup>n</sup>, para todo n mayor o igual a 0
       2. Donde en lo anterior, alfa y beta son constantes que dependen de los casos base
 
-3. Resolución del paso 2:
+{:start="4"}
+4. Resolución del paso 2:
 
 #### Ejemplo:
 
