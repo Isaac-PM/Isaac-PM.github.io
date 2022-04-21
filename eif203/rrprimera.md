@@ -310,8 +310,9 @@ print(busbin(x, a))
 
 <center><img src="/eif203/images/whboard.png" width=""/></center>
 
-1. Teorema de MT (Master theorem, pendiente)
-2. Teorema de MT (Master theorem, pendiente)
+{:start="4"}
+4. Teorema de MT (Master theorem, pendiente)
+5. Teorema de MT (Master theorem, pendiente)
    1. T<sub>buscando</sub>(n) ~ O(log(n))
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
