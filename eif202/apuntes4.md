@@ -66,7 +66,7 @@ Mueve los datos entre los dispositivos de hardware (I/O) y los dispositivos de a
 
 # Puertos de entrada y salida (I/O ó E/S) integrados
 
-<center>![](https://irfeyal.files.wordpress.com/2012/05/puertos.jpg?w=444)</center>
+<center><img src="[/eif202/images/atx.jpg](https://irfeyal.files.wordpress.com/2012/05/puertos.jpg?w=444)" width=""/></center>
 
 ## Blindaje EMC
 
