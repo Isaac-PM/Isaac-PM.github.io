@@ -152,14 +152,31 @@ Compuesto por:
   - Efectúa cálculos aritméticos y lógicos
   - Usa elementos llamados transistores
 
+# BIOS
 
+Se entiende como el sistema básico de entrada y salida, viene incorporado directamente en la mobo a través de memoria flash. Se encarga de la configuración de la placa base y de sus componentes.
 
+Se ejecuta al inicio del equipo, y se verifica el funcionamiento de todos los componentes, por medio del **POST (Power On Self Test)**, se autocomprueba:
 
+- CPU
+- Memoria
+- Chipset
+- Unidades de almacenamiento
+- Periféricos  cruciales
 
+Si el **POST** detecta un error, el equipo podría mostrar un código de error o una serie de bips.
 
+Se accede por medio de distintas teclas.
 
+# UEFI
 
+Tiene el mismo objetivo que la BIOS, sin embargo, posee una interfaz gráfica más amigable y un gran soporte para el uso con mouse, además de distintas herramientas de recuperación, OC, diagnóstico. Además, permite la instalación de dispositivos con mucha más capacidad. 
 
+# Batería
+
+Es una batería de tipo pastilla modelo **CR2032**, ayuda en la persistencia de la fecha, hora y configuraciones de esta. Su duración es de varios años.
+
+<center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
 
