@@ -71,7 +71,7 @@ Las siglas tienen el significado de **Advanced Technology**, surge como un está
 
 <center><img src="/eif202/images/atx.jpg" width="600"/></center>
 
-Las siglas significan **Advanced Technology Extended**, hace referencia a un **factor de forma** que determina yu estandariza las dimensiones, lugar de conectores y puertos I/O.
+Las siglas significan **Advanced Technology Extended**, hace referencia a un **factor de forma** que determina y estandariza las dimensiones, lugar de conectores y puertos I/O.
 
 Surge como la **evolución de las fuentes AT**.
 

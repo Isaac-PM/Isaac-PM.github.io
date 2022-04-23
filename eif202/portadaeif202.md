@@ -16,4 +16,8 @@
 
 [Ver documento](/eif202/apuntes3)
 
+### Tarjetas madre
+
+[Ver documento](/eif202/apuntes4)
+
 **[¡Regrésame!](/index)**
