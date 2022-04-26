@@ -41,11 +41,11 @@ La sobrecarga de operadores brinda la opción de sumar tanto datos como objetos.
 
 > ==, +, -  ,*, <,>, <=, >=, /, //, %
 
- > < <, >>, delete, [ ]
- 
- #### Ejemplo sobrecarga de operadores
- 
- ```cpp
+> < <, >>, delete, [ ]
+
+#### Ejemplo sobrecarga de operadores
+
+```cpp
 class Pareja
 {
 private:
