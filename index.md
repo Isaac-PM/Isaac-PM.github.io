@@ -18,7 +18,7 @@
 
 [Plantilla APA-7 LaTeX](plantillas/plantillalatex.md)
 
-[Instalación desde cero de Arch Linux]()
+[Instalación desde cero de Arch Linux](plantillas/arch.md)
 
 ***
 

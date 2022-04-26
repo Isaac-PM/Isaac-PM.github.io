@@ -4,6 +4,10 @@
 
 ## I Ciclo 2022
 
-¡Vaya! Está muy vacío por acá...
+### Patrón _decorator_
+
+[Ver documento](/eif204/decorator.md)
+
+**Por: Karla Verónica Quirós**
 
 **[¡Regrésame!](/index)**
