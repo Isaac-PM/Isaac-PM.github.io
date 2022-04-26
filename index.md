@@ -38,4 +38,6 @@
 
 <center><sub><sup>Derechos reservados al equipo de https://github.com/pages-themes/hacker</sup></sub></center>
 
+<center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
+
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
