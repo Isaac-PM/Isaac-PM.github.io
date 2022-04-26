@@ -68,7 +68,7 @@ public:
     
 ```
 
-**Tomando en cuenta el desarrollo de los métodos, más importantes:
+**Tomando en cuenta el desarrollo de los métodos, más importantes:**
 
 ```cpp
 Pareja& Pareja::operator+(const Pareja& p2)

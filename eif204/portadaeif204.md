@@ -6,7 +6,7 @@
 
 ### Patrón _decorator_
 
-[Ver documento](/eif204/decorator.md)
+[Ver documento](/eif204/decorator)
 
 **Por: Karla Verónica Quirós**
 
