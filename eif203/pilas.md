@@ -1,5 +1,5 @@
 ---
-title: "Relaciones de recurrencia"
+title: "Pilas ó stacks"
 author: "Isaac Palma Medina"
 ---
 
@@ -26,9 +26,9 @@ def exp(x, n) :
     return x * exp(x, n - 1)
 ```
 
-#### Comportamiento de pila en el caso `exp(2, 3)`
+### Comportamiento de pila en el caso `exp(2, 3)`
 
-##### Primer push
+#### Primer push
 
 <center><img src="https://i.imgur.com/2o2HdvU.png" width=""/></center>
 
@@ -36,33 +36,33 @@ En el primer **push**, se tienen los valores x = 2 y n = 3, mientras tanto el 2 
 
 El resto de la construcción de la pila seguirá un comportamiento similar, el valor de x se mantiene constante mientras el **valor de n se reduce hasta legar al caso base**, donde n = 0.
 
-##### Segundo push
+#### Segundo push
 
 <center><img src="https://i.imgur.com/MFrcdru.png" width=""/></center>
 
-##### Tercer push
+#### Tercer push
 
 <center><img src="https://i.imgur.com/ZAHksRA.png" width=""/></center>
 
-##### Cuarto push
+#### Cuarto push
 
 <center><img src="https://i.imgur.com/VvnOMyE.png" width=""/></center>
 
 Llegado al caso base, se detiene la construcción de la pila, el valor anterior de cada **frame** vendrá a sustituir al "?", eliminando cada frame anterior por medio de un **pop**.
 
-##### Primer pop
+#### Primer pop
 
 <center><img src="https://i.imgur.com/BCUucID.png" width=""/></center>
 
-##### Segundo pop
+#### Segundo pop
 
 <center><img src="https://i.imgur.com/Nm0Rqfn.png" width=""/></center>
 
-##### Tercer pop
+#### Tercer pop
 
 <center><img src="https://i.imgur.com/2QC87kF.png" width=""/></center>
 
-##### Cuarto pop
+#### Cuarto pop
 
 <center><img src="https://i.imgur.com/eXmOsU8.png" width=""/></center>
 

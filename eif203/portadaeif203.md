@@ -12,4 +12,8 @@
 
 [Ver documento](/eif203/pilas)
 
+### HLCC(2)
+
+[Ver documento](/eif203/hlcc2)
+
 **[¡Regrésame!](/index)**
