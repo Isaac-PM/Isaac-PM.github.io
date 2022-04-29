@@ -17,13 +17,27 @@ Un árbol es una estructura de datos que representa los subproblemas que un prob
 
 En algún momento el árbol llegará a los casos base, y la cantidad de **nodos** (esferas en el diagrama) será un indicador de la complejidad del algoritmo. Los **nodos** se unen por enlaces llamados **arcos**, el nodo del que nace el árbol se le denomina **root** o **raíz**.
 
+[Definición formal de árbol (próximanente)]()
+
 ## Ejemplo de un árbol, caso Hanoi
 
-Se requieren mover
+Se requiere mover cierta cantidad de discos de una posición A a una posición C, siguiendo los siguientes lineamientos:
 
-[Jugar](/eif203/hanoi.html)
+- Mover un disco a la vez
+- Mover únicamente el disco de más arriba
+- Únicamente colocar discos pequeños sobre discos grandes
 
-[Definición formal de árbol (próximanente)]()
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Tower_of_Hanoi_4.gif?20050322192703" width=""/></center>
+
+By André Karwath aka Aka - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=85401
+
+### Probar el juego
+
+[Jugar aquí](/eif203/hanoi.html){:target="\_blank"}
+
+CC BY © 2015-2021 Trinket : https://trinket.io/html/4ee70e4598
+
+
 
 
 
