@@ -8,7 +8,7 @@ author: "Isaac Palma Medina"
 
 # Concepto
 
-Se puede entender una **relación de recurrencia (RR)**, como aquel objeto o función que contenga en su interior una copia de esta. Se dice que esa función es recurrente al presentar esa propiedad. Por ejemplo:
+Se puede entender una **relación de recurrencia (RR)**, como aquel objeto o función que contenga en su interior una copia de sí mismo. Se dice que esa función es recurrente al presentar esa propiedad. Por ejemplo:
 
 ```python
 def factorial(n) :
