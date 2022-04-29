@@ -9,7 +9,7 @@ Se entiende como pila ó stack a aquella **estructura de datos** que permite alm
 
 A la acción de **ingresar** se le denomina **Push**, a la acción de eliminar se le llama **Pop**, a cada elemento del stack es referido como un **Frame**.
 
-<center>![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lifo_stack.svg/800px-Lifo_stack.svg.png)</center>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lifo_stack.svg/800px-Lifo_stack.svg.png" width="400"/></center>
 
 _By Vectorization: OmenBreeze - Own work based on: Lifo stack.png by Maxtremus, CC0, https://commons.wikimedia.org/w/index.php?curid=115938639_
 
@@ -30,7 +30,7 @@ def exp(x, n) :
 
 ##### Primer push
 
-<center>![](https://i.imgur.com/2o2HdvU.png)</center>
+<center><img src="https://i.imgur.com/2o2HdvU.png" width=""/></center>
 
 En el primer **push**, se tienen los valores x = 2 y n = 3, mientras tanto el 2 se mantiene en espera del valor de la llamada recursiva, equivalente a la línea: `x * exp(x, n - 1)`. 
 
@@ -38,33 +38,33 @@ El resto de la construcción de la pila seguirá un comportamiento similar, el v
 
 ##### Segundo push
 
-<center>![](https://i.imgur.com/MFrcdru.png)</center>
+<center><img src="https://i.imgur.com/MFrcdru.png" width=""/></center>
 
 ##### Tercer push
 
-<center>![](https://i.imgur.com/ZAHksRA.png)</center>
+<center><img src="https://i.imgur.com/ZAHksRA.png" width=""/></center>
 
 ##### Cuarto push
 
-<center>![](https://i.imgur.com/VvnOMyE.png)</center>
+<center><img src="https://i.imgur.com/VvnOMyE.png" width=""/></center>
 
 Llegado al caso base, se detiene la construcción de la pila, el valor anterior de cada **frame** vendrá a sustituir al "?", eliminando cada frame anterior por medio de un **pop**.
 
 ##### Primer pop
 
-<center>![](https://i.imgur.com/BCUucID.png)</center>
+<center><img src="https://i.imgur.com/BCUucID.png" width=""/></center>
 
 ##### Segundo pop
 
-<center>![](https://i.imgur.com/Nm0Rqfn.png)</center>
+<center><img src="https://i.imgur.com/Nm0Rqfn.png" width=""/></center>
 
 ##### Tercer pop
 
-<center>![](https://i.imgur.com/2QC87kF.png)</center>
+<center><img src="https://i.imgur.com/2QC87kF.png" width=""/></center>
 
 ##### Cuarto pop
 
-<center>![](https://i.imgur.com/eXmOsU8.png)</center>
+<center><img src="https://i.imgur.com/eXmOsU8.png" width=""/></center>
 
 La respuesta es **8** y la pila creció **4 frames**, es decir la cantidad de frames en este caso es n + 1.
 
