@@ -9,7 +9,7 @@ Se entiende como pila ó stack a aquella **estructura de datos** que permite alm
 
 A la acción de **ingresar** se le denomina **Push**, a la acción de eliminar se le llama **Pop**, a cada elemento del stack es referido como un **Frame**.
 
-<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lifo_stack.svg/800px-Lifo_stack.svg.png" width="400"/></center>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lifo_stack.svg/640px-Lifo_stack.svg.png" width=""/></center>
 
 _By Vectorization: OmenBreeze - Own work based on: Lifo stack.png by Maxtremus, CC0, https://commons.wikimedia.org/w/index.php?curid=115938639_
 
