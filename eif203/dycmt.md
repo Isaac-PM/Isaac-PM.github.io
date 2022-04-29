@@ -1,13 +1,13 @@
 ---
-title: "DyC y MT, resolución RR"
+title: "Hanoi, DyC y MT, resolución RR"
 author: "Isaac Palma Medina"
 ---
 
-# DyC y MT, resolución RR
+# Hanoi, DyC y MT, resolución RR
 
 ***
 
-## Noción de un árbol
+# Noción de un árbol
 
 Para comprender la complejidad de un algoritmo, se puede observar la profundidad que alcanza el árbol de llamadas recursivas.
 
@@ -15,13 +15,19 @@ Un árbol es una estructura de datos que representa los subproblemas que un prob
 
 <center><img src="/eif203/images/arbol.svg" width="400"/></center>
 
-En algún momento el árbol llegará a los casos base, y la cantidad de **nodos** (esferas en el diagrama) será un indicador de la complejidad de este. Los **nodos** se unen por enlaces llamados **arcos**. 
+En algún momento el árbol llegará a los casos base, y la cantidad de **nodos** (esferas en el diagrama) será un indicador de la complejidad del algoritmo. Los **nodos** se unen por enlaces llamados **arcos**, el nodo del que nace el árbol se le denomina **root** o **raíz**.
+
+## Ejemplo de un árbol, caso Hanoi
+
+Se requieren mover
+
+[Jugar](/eif203/hanoi.html)
 
 [Definición formal de árbol (próximanente)]()
 
-***
 
-## DyC (divide y conquista)
+
+# DyC (divide y conquista)
 
 Consiste en dividir un problema en varios de menor tamaño, con la finalidad de que resolviendo esos subproblemas se puede resolver el problema principal.
 
