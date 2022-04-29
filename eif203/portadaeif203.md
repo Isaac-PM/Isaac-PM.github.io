@@ -12,7 +12,7 @@
 
 [Ver documento](/eif203/pilas)
 
-### HLCC(2)
+### HLCC(2), resolución RR
 
 [Ver documento](/eif203/hlcc2)
 

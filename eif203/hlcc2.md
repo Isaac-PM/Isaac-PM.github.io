@@ -1,9 +1,9 @@
 ---
-title: "Relaciones de recurrencia"
+title: "HLCC(2), resolución RR"
 author: "Isaac Palma Medina"
 ---
 
-# HLCC(2)
+# HLCC(2), resolución RR
 
 Se trabajan funciones sencillas, con una **forma general**. Dichas funciones **fáciles de resolver** se denominan **Homogéneas Lineales de Coeficientes Constantes de Grado Dos (HLCC(2))**.
 
@@ -15,13 +15,13 @@ Las **"CC"** hacen referencia a que los elementos no pueden estar multiplicados 
 
 La anterior, no cumple con los requisitos para ser considerada una HLCC(2), ya que el primer coeficiente no es constante (es `n`).
 
-## Otro ejemplo:
+### Otro ejemplo:
 
 > f<sub>n</sub> = 3f<sub>n - 1</sub> * f<sub>n - 2</sub>
 
 La anterior, tampoco cumple con los requisitos para ser considerada una HLCC(2), ya que los elementos de la función no se ven unidos por una suma.
 
-## Otro ejemplo:
+### Otro ejemplo:
 
 > f<sub>n</sub> = 3f<sub>n/2</sub> * f<sub>n - 1</sub>
 
@@ -70,7 +70,7 @@ La anterior se conoce como **Hanoi**, y no cumple con los requisitos para consid
 
 > Casos base: f<sub>0</sub> = 1 y f<sub>1</sub> = 3
 
-Desarrollo del polinomio característico
+Desarrollo del **polinomio característico**
 
 > pc(x) = x<sup>2</sup> - 3x + 2
 
@@ -101,6 +101,7 @@ Se encuentran α y β, usando los casos base:
 > 3 = α2 + β
 
 Se obtiene un sistema de ecuaciones:
+
 > 1 = α + β 
 
 > 3 = α2 + β
@@ -112,6 +113,7 @@ Se obtiene un sistema de ecuaciones:
 > Regresando a la primera: 1 = α + β -> 1 = α + -1 -> α = 2
 
 Respuesta:
+
 > f<sub>n</sub> = 2 * 2<sup>n</sup> + - 1
 
 > f<sub>n</sub> = 2<sup>n - 1</sup> - 1
@@ -119,6 +121,7 @@ Respuesta:
 > f<sub>n</sub> = 2<sup>n - 1</sup> - 1, para todo n mayor o igual a 0
 
 Crecimiento:
+
 > f<sub>n</sub> = 2<sup>n - 1</sup> - 1, el 1 se descarta por ser una constante que no aporta al crecimiento
 
 > f<sub>n</sub> = 2<sup>n - 1</sup> -> f<sub>n</sub> = 2<sup>n</sup> * 2<sup>1</sup>, el 2<sup>1</sup> también puede ser descartado
@@ -126,3 +129,7 @@ Crecimiento:
 > f<sub>n</sub> = 2<sup>n</sup>
 
 > f<sub>n</sub> ~ O(2<sup>n</sup>)
+
+![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
+
+**[¡Regrésame!](/eif203/portadaeif203)**
