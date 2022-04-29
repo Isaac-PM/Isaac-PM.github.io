@@ -16,4 +16,8 @@
 
 [Ver documento](/eif203/hlcc2)
 
+### DyC y MT, resolución RR
+
+[Ver documento](/eif203/dycmt)
+
 **[¡Regrésame!](/index)**
