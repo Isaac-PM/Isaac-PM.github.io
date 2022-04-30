@@ -22,6 +22,10 @@
 
 ### Formalización cota superior asintótica: O(), Ω() y Θ()
 
+[Ver documento](/eif203/ogrande)
+
+### Orientación a objetos en Python
+
 [Ver documento]()
 
 **[¡Regrésame!](/index)**
