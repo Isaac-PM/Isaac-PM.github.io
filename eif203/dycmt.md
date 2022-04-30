@@ -84,6 +84,7 @@ La operación de interes son: `print`
 ##### Solución de la ecuación
 
 > 1, 3, 7, 15, 31
+
 > Diferencia entre los términos: 2, 4, 8, 16
 
 Se observa que se trata de una sucesión que incrementa en 2<sup>n</sup> - 1, por lo que:
@@ -92,13 +93,54 @@ Se observa que se trata de una sucesión que incrementa en 2<sup>n</sup> - 1, po
 
 ##### Orden de crecimiento
 
-> **T<sub>hanoi</sub> ~O(2<sup>n</sup>)**
+> **T<sub>hanoi</sub> ~ O(2<sup>n</sup>)**
+
+***
 
 # DyC (divide y conquista)
 
-Consiste en dividir un problema en varios de menor tamaño, con la finalidad de que resolviendo esos subproblemas se puede resolver el problema principal.
+Consiste en dividir un problema en varios problemas de menor tamaño, con la finalidad de que, resolviendo esos subproblemas se puede resolver el problema principal.
 
-### Ejemplo de búsqueda binaria
+## Búsqueda binaria
+
+### Programado en en Python
+
+```python
+def busbin(x:int, a:list) : 
+    def buscando(left, right) :
+        if left > right :
+           return -1 # No encontrado
+        m = (right + left) // 2 # Punto medio
+        if x == a[m] :
+            return m # Encontrado
+        if x < a[m] :
+            return buscando(left, m - 1)
+            # Buscando al lado izquierdo
+        return(m + 1, right) # Omite preguntar x > a[m]
+        # Buscando al lado derecho
+    return buscando(0, len(a) - 1)
+
+x = 19
+a = [10, 15, 21, 25, 35, 40, 45]
+print(busbin(x, a))
+# Salida: -1
+```
+
+### Árbol de llamadas
+
+El árbol de llamadas de `busbin()` se hace siguiendo el algoritmo anterior, se muestran algunas partes del árbol que no se general con fines ilustrativos.
+
+<center><img src="/eif203/images/arbolbusbin.jpg" width=""/></center>
+
+Nótese que el último nodo, al no coincidir el elemento con el buscado devuelve -1, respuesta que se transporta hasta la raíz del árbol. Además se destaca la manera en la que se soluciona el problema por medio de la subdivisión en problemas de un orden más sencillo.
+
+#### Árbol real
+
+<center><img src="/eif203/images/arbolbusbinreal.jpg" width=""/></center>
+
+El árbol real de `busbin()` no toma en cuenta aquellos casos donde `x` no pertenezca en el conjunto (siendo menor o mayor al punto medio de la lista).
+
+### Paso a paso
 
 Dada la lista `a = [10, 15, 21, 25, 35, 40, 45]`, ordenada y con elementos no repetidos, se busca `x = 19`.
 
@@ -122,28 +164,15 @@ Se parte del punto medio y se evalúa si este es mayor o menor a `x`, de ahí se
 
 > 21 es distinto de 19, por lo que este no existe en la lista y se retorna -1.
 
-#### Programación en Python
+# Master theorem (MT)
 
-```python
-def busbin(x:int, a:list) : 
-    def buscando(left, right) :
-        if left > right :
-           return -1 # No encontrado
-        m = (right + left) // 2 # Punto medio
-        if x == a[m] :
-            return m # Encontrado
-        if x < a[m] :
-            return buscando(left, m - 1)
-            # Buscando al lado izquierdo
-        return(m + 1, right) # Omite preguntar x > a[m]
-        # Buscando al lado derecho
-    return buscando(0, len(a) - 1)
+## 
 
-x = 19
-a = [10, 15, 21, 25, 35, 40, 45]
-print(busbin(x, a))
-# Salida: -1
-```
+
+
+
+
+
 
 #### Tiempo de corrida de busbin(...)
 1. El tamaño de los datos es `len(a)`
