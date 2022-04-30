@@ -225,6 +225,13 @@ Sea **a** igual al **número de llamadas recursivas**, sea **c** una constante r
    1. Debido a su orden de crecimiento se puede inferir que su respuesta puede ser obtenida por medio del MT Simple.
    2. **a** es igual a 1, lo que implica que T<sub>buscando</sub>(n) ~ O(log(n))
 
+## Mergesort
+
+### Árbol de mergesort
+
+<center><img src="/eif203/images/arbolmerge.png" width=""/></center>
+
+
 <center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
