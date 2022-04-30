@@ -122,13 +122,14 @@ def busbin(x:int, a:list) :
 
 x = 19
 a = [10, 15, 21, 25, 35, 40, 45]
+
 print(busbin(x, a))
 # Salida: -1
 ```
 
 ### Árbol de llamadas
 
-El árbol de llamadas de `busbin()` se hace siguiendo el algoritmo anterior, se muestran algunas partes del árbol que no se general con fines ilustrativos.
+El árbol de llamadas de `busbin()` se hace siguiendo el algoritmo anterior, se muestran algunas partes del árbol que no se generan, con fines ilustrativos.
 
 <center><img src="/eif203/images/arbolbusbin.jpg" width=""/></center>
 
@@ -166,15 +167,47 @@ Se parte del punto medio y se evalúa si este es mayor o menor a `x`, de ahí se
 
 # Master theorem (MT)
 
-## 
+## Simple
 
+Sea **a** igual al **número de llamadas recursivas**, sea **c** una constante referente al tiempo que toma **"obtener" la respuesta del nodo anterior** igual a **~ O(1)**, sea **b** el **divisor de n**. 
 
+> a debe: a >= 1, a ∈ N y b debe: b > 1
 
+> Si a > 1, entonces f<sub>n</sub> ~ O(n<sup>log<sub>b</sub>(a)</sup>)
 
+> Si a = 1, entonces f<sub>n</sub> ~ O(log<sub>b</sub>(n))
 
+> f<sub>n</sub> = a * f<sub>n / 2</sub> + c
 
+### Árbol de una MT simple
 
-#### Tiempo de corrida de busbin(...)
+<center><img src="/eif203/images/mtsimple.jpg" width=""/></center>
+
+## General
+
+Sea **a** igual al **número de llamadas recursivas**, sea **c** una constante referente al tiempo que toma **"obtener" la respuesta del nodo anterior** igual a **~ O(1)**, sea **b**. 
+
+> a debe: a >= 1, a ∈ N y b debe: b > 1
+
+> n es una potencia de b: n = b<sup>k</sup>
+
+> Si a < b<sup>d</sup>, fn ~ O(n<sup>d</sup>)
+
+> Si a = b<sup>d</sup>, fn ~ O(n<sup>d</sup> * log<sub>b</sub>(n))
+
+> Si a > b<sup>d</sup>, fn ~ O(n<sup>log<sub>b</sub>(a)</sup>)
+
+> f<sub>n</sub> = a * f<sub>n / b</sub> + c * n<sup>d</sup>
+
+> Tiempo de combinar las soluciones: c * n<sup>d</sup>
+
+### Árbol de una MT general
+
+<center><img src="/eif203/images/mtgeneral.jpg" width=""/></center>
+
+***
+
+### Tiempo de busbin
 1. El tamaño de los datos es `len(a)`
 2. Operaciones (comparaciones entre `x` y elementos de la lista):
    1. T<sub>==</sub> = T<sub> < </sub> = O(1)
@@ -185,9 +218,12 @@ Se parte del punto medio y se evalúa si este es mayor o menor a `x`, de ahí se
 <center><img src="/eif203/images/whboard.png" width=""/></center>
 
 {:start="4"}
-4. Teorema de MT (Master theorem, pendiente)
-5. Teorema de MT (Master theorem, pendiente)
-   1. T<sub>buscando</sub>(n) ~ O(log(n))
+4. Resolución de la RR
+   1. <center><img src="/eif203/images/arbolbusbinmt.png" width=""/></center>
+   2. Se puede observar que **a** es igual a 1 (solo se hace una llamada recursiva [solo se construye un arco]), **b** es igual a 2. **c** es igual a 1 (debido a que retorna -1 en un tiempo constante).
+5. Orden de crecimiento
+   1. Debido a su orden de crecimiento se puede inferir que su respuesta puede ser obtenida por medio del MT Simple.
+   2. **a** es igual a 1, lo que implica que T<sub>buscando</sub>(n) ~ O(log(n))
 
 <center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
 
