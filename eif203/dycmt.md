@@ -35,11 +35,64 @@ By André Karwath aka Aka - Own work, CC BY-SA 2.5, https://commons.wikimedia.or
 
 [Jugar aquí](/eif203/hanoi.html){:target="\_blank"}
 
-CC BY © 2015-2021 Trinket : https://trinket.io/html/4ee70e4598
+<sub><sup>CC BY © 2015-2021 Trinket</sup></sub>
 
+### Desarrollo de Hanoi
 
+Sean A, B y C las posiciones en las que se deben colocar los discos, con el objetivo de mover los discos que se encuentran en A hacia C.
 
+#### Árbol de llamadas
 
+<center><img src="/eif203/images/arbolhanoi.jpg" width=""/></center>
+
+#### Código de ejemplo
+
+```python
+def hanoi(n, A = "A", B = "B", C = "C") :
+    if n == 1 :
+        print(f"Mueve de {A} a {C}")
+    hanoi(n - 1, A, C, B)
+    print(f"Mueve de {A} a {C}")
+    hanoi(n - 1, B, A, C)
+```
+
+#### Tiempo de Hanoi
+
+##### Tamaño de los datos
+
+El tamaño de los datos es igual a n (cantidad de discos)
+
+##### Operación de interés
+
+La operación de interes son: `print`
+
+##### Ecuación de RR
+
+<center><img src="/eif203/images/tiempohanoi.jpg" width=""/></center>
+
+##### Resolución por sustitución hacia atrás
+
+| **n** |        **A**       | **B** | **C = A + B** |
+|:-----:|:------------------:|:-----:|:-------------:|
+|   -   | 2T<sub>n - 1</sub> |   1   | T<sub>n</sub> |
+|   1   |   2T<sub>1</sub>   |   1   |       1       |
+|   2   |   2T<sub>2</sub>   |   1   |       3       |
+|   3   |   2T<sub>3</sub>   |   1   |       7       |
+|   4   |   2T<sub>4</sub>   |   1   |       15      |
+|   5   |   2T<sub>5</sub>   |   1   |       31      |
+
+##### Solución de la ecuación
+
+> 1, 3, 7, 15, 31
+> Diferencia entre los términos: 2, 4, 8, 16
+
+Se observa que se trata de una sucesión que incrementa en 2<sup>n</sup> - 1, por lo que:
+
+> **T<sub>hanoi</sub> = 2<sup>n</sup> - 1**
+
+##### Orden de crecimiento
+
+> **T<sub>hanoi</sub> ~O(2<sup>n</sup>)**
 
 # DyC (divide y conquista)
 
@@ -106,6 +159,8 @@ print(busbin(x, a))
 4. Teorema de MT (Master theorem, pendiente)
 5. Teorema de MT (Master theorem, pendiente)
    1. T<sub>buscando</sub>(n) ~ O(log(n))
+
+<center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
 

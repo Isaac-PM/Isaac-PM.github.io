@@ -20,7 +20,6 @@
 
 [Ver documento](/eif203/dycmt)
 
-
 ### Formalización cota superior asintótica: O(), Ω() y Θ()
 
 [Ver documento]()
