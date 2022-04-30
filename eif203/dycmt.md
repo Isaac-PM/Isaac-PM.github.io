@@ -219,7 +219,7 @@ Sea **a** igual al **número de llamadas recursivas**, sea **c** una constante r
 
 {:start="4"}
 4. Resolución de la RR
-   1. <center><img src="/eif203/images/arbolbusbinmt.png" width=""/></center>
+   1. <center><img src="/eif203/images/arbolbusbinmt.jpg" width=""/></center>
    2. Se puede observar que **a** es igual a 1 (solo se hace una llamada recursiva [solo se construye un arco]), **b** es igual a 2. **c** es igual a 1 (debido a que retorna -1 en un tiempo constante).
 5. Orden de crecimiento
    1. Debido a su orden de crecimiento se puede inferir que su respuesta puede ser obtenida por medio del MT Simple.
@@ -229,7 +229,7 @@ Sea **a** igual al **número de llamadas recursivas**, sea **c** una constante r
 
 ### Árbol de mergesort
 
-<center><img src="/eif203/images/arbolmerge.png" width=""/></center>
+<center><img src="/eif203/images/arbolmerge.jpg" width=""/></center>
 
 
 <center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
