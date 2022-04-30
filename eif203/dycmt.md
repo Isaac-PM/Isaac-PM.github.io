@@ -274,7 +274,7 @@ def mergesort(a) :
 3. Relación de recurrencia:
    1. <center><img src="/eif203/images/tiempoms.jpg" width=""/></center>
 4. Orden de crecimiento según **MT**:
-   1. <center><img src="/eif203/images/tiempoms.jpg" width=""/></center>
+   1. <center><img src="/eif203/images/arbolms.jpg" width=""/></center>
    2. T<sub>ms</sub> ~ O(nlog(n))
 
 ## Algoritmo máximo de una lista
@@ -283,7 +283,7 @@ def mergesort(a) :
 
 ### Tiempo de de max según MT
 
-
+<center><img src="/eif203/images/tiempomax.jpg" width=""/></center>
 
 <center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
 
