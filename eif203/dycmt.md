@@ -231,6 +231,59 @@ Sea **a** igual al **número de llamadas recursivas**, sea **c** una constante r
 
 <center><img src="/eif203/images/arbolmerge.jpg" width=""/></center>
 
+### Algoritmo de merge
+
+```python
+def merge(a, b) :
+    n, m = len(a), len(b) # Tamaño de ambas listas.
+    i, j, k = 0, 0, 0
+    result = [0] * (n + m) # Se crea una lista del tamaño final.
+    while i < n and j < m :
+        if a[i] < b[j] : # Compara e ingresa en la lista final los índices a[i] < b[j].
+            result[k] = a[i]
+            i += 1
+        else : # Si b[j] < a[i].
+            result[k] = b[j]
+            j += 1
+        k += 1
+    while i < n : # Completar de recorrer la lista, una no quedó vacía.
+        result[k] = a[i]
+        i += 1
+        k += 1
+    while j < m :  # Completar de recorrer la lista, una no quedó vacía.
+        result[k] = b[j]
+        j += 1
+        k += 1
+    return result
+```
+
+### Algoritmo de mergesort
+
+```python
+def mergesort(a) :
+    n = len(a)
+    if n <= 1 :
+        return a
+    m  = n // 2
+    return merge( mergesort(a[:m]), mergesort(a[m:]) )
+```
+
+### Tiempo de mergesort
+1. Tamaño de los datos: cantidad de elementos en la lista
+2. Operación de interés: comparación
+3. Relación de recurrencia:
+   1. <center><img src="/eif203/images/tiempoms.jpg" width=""/></center>
+4. Orden de crecimiento según **MT**:
+   1. <center><img src="/eif203/images/tiempoms.jpg" width=""/></center>
+   2. T<sub>ms</sub> ~ O(nlog(n))
+
+## Algoritmo máximo de una lista
+
+<center><img src="/eif203/images/arbolmax.jpg" width=""/></center>
+
+### Tiempo de de max según MT
+
+
 
 <center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
 
