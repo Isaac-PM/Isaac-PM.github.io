@@ -26,6 +26,6 @@
 
 ### Orientación a objetos en Python
 
-[Ver documento]()
+[Ver documento](/eif203/objetospy)
 
 **[¡Regrésame!](/index)**
