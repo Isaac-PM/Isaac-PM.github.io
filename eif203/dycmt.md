@@ -185,7 +185,7 @@ Sea **a** igual al **número de llamadas recursivas**, sea **c** una constante r
 
 ## General
 
-Sea **a** igual al **número de llamadas recursivas**, sea **c** una constante referente al tiempo que toma **"obtener" la respuesta del nodo anterior** igual a **~ O(1)**, sea **b**. 
+Sea **a** igual al **número de llamadas recursivas**, sea **c** una constante referente al tiempo que toma **"obtener" la respuesta del nodo anterior** igual a **~ O(n<sup>d</sup>)**, sea **b**. 
 
 > a debe: a >= 1, a ∈ N y b debe: b > 1
 
