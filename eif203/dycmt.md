@@ -177,7 +177,7 @@ Sea **a** igual al **número de llamadas recursivas**, sea **c** una constante r
 
 > Si a = 1, entonces f<sub>n</sub> ~ O(log<sub>b</sub>(n))
 
-> f<sub>n</sub> = a * f<sub>n / 2</sub> + c
+> f<sub>n</sub> = a * f<sub>n / b</sub> + c
 
 ### Árbol de una MT simple
 
@@ -276,6 +276,8 @@ def mergesort(a) :
 4. Orden de crecimiento según **MT**:
    1. <center><img src="/eif203/images/arbolms.jpg" width=""/></center>
    2. T<sub>ms</sub> ~ O(nlog(n))
+
+> Errata: a > 2, 2 > 2, falso - a = 2, 2 = 2, verdadero
 
 ## Algoritmo máximo de una lista
 
