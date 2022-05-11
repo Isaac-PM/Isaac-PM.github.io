@@ -40,6 +40,34 @@ objeto2 = ObjetoFooBar('foobar2')
 
 > La clase **ObjetoFooBar** **inherits** from **ObjetoFoo**, y **objeto2** is an instance de **ObjetoFooBar**, además **objeto2** is an instance de **ObjetoFoo**.
 
+## Ejemplo clase Animal
+
+```python
+class Animal:
+    def __init__(self, name:str):
+        self.name = name
+
+    def __repr__(self):
+        return f"Animal(name='{self.name}')
+
+    def eat(self, food):
+        print(f"{self.name} is eating {food}")
+
+    def __eq__(self, other): # Sobrecarga del ==
+        if self is other: # Si se trata de la misma instancia
+            return True
+        if isinstance(other, Animal):
+            return self.name == other.name
+        return False
+
+class Dog(Animal):
+    def __repr__(self):
+        return f"Dog(name='{self.name}')
+
+    def bark(self, times=2):
+        print(f"{self.name} is barking: {'Wuff!' * times}")
+```
+
 <center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)

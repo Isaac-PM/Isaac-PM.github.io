@@ -28,4 +28,8 @@
 
 [Ver documento](/eif203/objetospy)
 
+### Relaciones binarias
+
+[Ver documento](/eif203/relaciones)
+
 **[¡Regrésame!](/index)**
