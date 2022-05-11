@@ -1,9 +1,9 @@
 ---
-title: "Relaciones binarias"
+title: "Relaciones binarias y diccionarios"
 author: "Isaac Palma Medina"
 ---
 
-# Relaciones binarias
+# Relaciones binarias y diccionarios
 
 ***
 
@@ -24,7 +24,7 @@ Dados los conjuntos **A** y **B**, **R** es una relación si **R ⊆ AxB** (prod
 >>> S = {7, 3, 9, 5, 3, 1, 5, 1}
 >>> type(S)
 # Output
-<class 'set'>
+# <class 'set'>
 
 # Input
 >>> S
@@ -100,7 +100,7 @@ B = {Juan, Ana, Pedro}
 R = {(0, Juan), (0, Pedro), (1, Ana), (2, Pedro), (2, Juan)}
 
 
-### Representación en matriz, M<sub>R</sub>
+### Representación en matriz, M<sub>R</sub> (matriz de adyacencia)
 
 |   -   | **Juan** | **Ana** | **Pedro** |
 |:-----:|:--------:|:-------:|:---------:|
@@ -171,24 +171,162 @@ R es simétrica: ∀ x,y : xRy → yRx
 
 ### Transitiva
 
-R es transivica: ∀ x,y,z : xRy ^ yRz → xRz
+R es transitiva: ∀ x,y,z : xRy ^ yRz → xRz
+
+Los términos no necesariamente son diferentes.
 
 <center><img src="/eif203/images/digrafotransitiva.jpg" width=""/></center>
 
+### Equivalencia
+
+Es reflexiva, simétrica y transitiva.
+
+### Irreflexiva
+
+∀ x : x¬Rx
+
+Leído x NO está relacionado consigo mismo.
+
+### Antisimétrica
+
+∀ x,y : ∀ x,y : xRy ^ yRx → x = y
+
+Leído x está relacionado con y, et y está relacionado con x, siendo x et y el mismo objeto.
+
+***
+
+## Análisis de un ejemplo
+
+<center><img src="/eif203/images/digrafoejemplo.jpg" width=""/></center>
+
+A = {a, b, c} (A es el **dominio**).
+
+R = {(a,b), (b,a), (c,c)}
+
+### ¿Es R reflexiva?
+
+NO, **contrajemplo:** a no está relacionado consigo mismo.
+
+```
+Para c/x
+    Si xRx
+```
+
+Lo anterior posee un tiempo de corrida ~O(n).
+
+### ¿Es R simétrica?
+
+Si, **prueba:** aRb y bRa, cRc y cRc
+
+```
+Para c/x
+    Para c/y
+    Si xRy entonces yRx
+```
+
+Lo anterior posee un tiempo de corrida ~O(n<sup>2</sup>).
+
+### ¿Es R transitiva?
+
+NO, **contrajemplo:** aRb y bRa pero a¬Ra
+
+Tiempo de corrida ~O(n<sup>3</sup>).
+
+### ¿Es R de equivalencia?
+
+NO, ya que es únicamente simétrica.
+
+### ¿Es R irreflexiva?
+
+NO, **contrajemplo:** cRc.
+
+```
+Para c/x
+    Si x¬Rx
+```
+
+Lo anterior posee un tiempo de corrida ~O(n).
 
 
+### ¿Es R antisimétrica?
 
+NO, **contrajemplo:** aRb y bRa pero a != b
 
+Tiempo de corrida ~O(n<sup>2</sup>).
 
+***
 
+## Relación de orden parcial
 
+Una relación de orden parcial es:
 
+- reflexiva
+- antisimétrica
+- transitiva
 
+### Ejemplo issubclass con clase Animal
 
+```python
+# Input
+>>> issubclass(Dog, Animal)
+# Output
+>>> True
 
+# Input
+>>> issubclass(Dog, Dog) 
+# Output
+>>> True # es reflexiva
 
+# Input
+>>> issubclass(Animal, Dog) 
+# Output
+>>> False # es antisimétrica
 
+# Input
+>>> class Chihuahua(Dog): pass
+>>> issubclass(Chihuahua, Animal) 
+# Output
+>>> True # es transitiva
+```
 
+<center><img src="/eif203/images/digrafois.jpg" width=""/></center>
+
+***
+
+## Diccionarios en Python
+
+Hace uso de una función de hash, que convierta un objeto a un número, el cual sería el identificador del objeto en el diccionario.
+
+```python
+# Input
+>>> dic = {'ab': 10, 'cd': 21, 'ef': 32, 'gh': 43, 'ij': 54} # Las letras entre comillas serían el identificador explícito.
+>>> dic['ef'] # Llamar a un elemento
+# Output
+>>> 32
+
+# Input
+>>> dic['kl'] = 65 # Añadir un nuevo elemento
+
+```
+
+### Representación de un digrafo en un diccionario (lista de adyacencia)
+
+<center><img src="/eif203/images/digrafo1.jpg" width=""/></center>
+
+#### Representación en matriz
+
+| **-** | **a** | **b** | **c** | **d** |
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| **a** |   1   |   1   |   1   |   0   |
+| **b** |   1   |   0   |   1   |   0   |
+| **c** |   0   |   0   |   0   |   1   |
+| **d** |   0   |   0   |   0   |   0   |
+
+#### Representación en diccionario
+
+```python
+>>> dic = {'a':['a', 'b', 'c'], 'b':['a', 'c'], 'c':['d'], 'd':[]}
+```
 
 <iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 

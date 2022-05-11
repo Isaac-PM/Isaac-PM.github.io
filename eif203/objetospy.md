@@ -68,6 +68,10 @@ class Dog(Animal):
         print(f"{self.name} is barking: {'Wuff!' * times}")
 ```
 
+## Zona de pruebas
+
+<iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 <center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)

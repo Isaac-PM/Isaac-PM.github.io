@@ -28,7 +28,7 @@
 
 [Ver documento](/eif203/objetospy)
 
-### Relaciones binarias
+### Relaciones binarias y diccionarios
 
 [Ver documento](/eif203/relaciones)
 
