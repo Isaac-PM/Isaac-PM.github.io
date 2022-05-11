@@ -77,7 +77,7 @@ A = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 B = {'a', 'b', 'c'}
 
-Sea R una relación sobre A,B: xRy ≡ x ∈ A es par, y ∈ B es 'a' || 'c'
+Sea R una relación sobre A,B: xRy ≡ x ∈ A es par, y ∈ B es 'a' ó 'c'
 
 #### Implementación en Python
 
@@ -116,7 +116,7 @@ R = {(0, Juan), (0, Pedro), (1, Ana), (2, Pedro), (2, Juan)}
 
 ## Relación issubclass
 
-**x** issubclass **y** sii x = y || x hereda de y
+**x** issubclass **y** sii x = y ó x hereda de y
 
 ### Ejemplo con clase Animal
 
@@ -327,6 +327,46 @@ Hace uso de una función de hash, que convierta un objeto a un número, el cual 
 ```python
 >>> dic = {'a':['a', 'b', 'c'], 'b':['a', 'c'], 'c':['d'], 'd':[]}
 ```
+
+***
+
+## Relaciones de equivalencia
+
+**Clase de equivalencia**, son aquellos elementos equivalentes en una relación. Es **reflexiva**, **simétrica** y **transitiva**.
+
+<center><img src="/eif203/images/equivalencia.jpg" width=""/></center>
+
+[x]<sub>R</sub> = {y / xRy}, se refiere a un "representante" que es equivalente a los otros del "conjunto".
+
+### Propiedades clases de equivalencia
+
+Sea R una relación de equivalencia sobre A != 0:
+
+- Todo x en A pertenece al menos a una clase de equivalencia (consigo misma): xRx ∀ x de manera que: [x]<sub>R</sub> = {y / xRy} → x ∈ [x]<sub>R</sub>
+- Todo x en A pertenece a lo mas en una clase de equivalencia. Debido a transitividad, todos los elementos se relacionan entre sí, dando lugar a una sola clase.
+- El unir todas las clases de equivalencia da lugar a A
+
+#### Ejemplo de clausuras
+
+A = {a, b, c, d, e}
+
+R = {(a,b), (e,b), (d,c), (d,f)}
+
+<center><img src="/eif203/images/ejemplo1.jpg" width=""/></center>
+
+> Añada las relaciones mínimas necesarias para que R sea reflexiva (clausura reflexiva).
+
+<center><img src="/eif203/images/ejemplo2.jpg" width=""/></center>
+
+> Añada las relaciones mínimas necesarias para que R sea simétrica (clausura simétrica).
+
+<center><img src="/eif203/images/ejemplo3.jpg" width=""/></center>
+
+> Añada las relaciones mínimas necesarias para que R sea transitiva (clausura transitiva).
+
+<center><img src="/eif203/images/ejemplo4.jpg" width=""/></center>
+
+Además se deben añadir nuevos arcos (en verde) para mantener la simetría de las relaciones.
 
 <iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
