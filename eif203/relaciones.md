@@ -368,6 +368,40 @@ R = {(a,b), (e,b), (d,c), (d,f)}
 
 Además se deben añadir nuevos arcos (en verde) para mantener la simetría de las relaciones.
 
+***
+
+### Metodología de resolución
+
+<center><img src="/eif203/images/resolucion.jpg" width=""/></center>
+
+### Ejercicio de ejemplo 1
+
+Dado un conjunto A, y una relación R **sobre** A (A→A, A relacionado con A), tal que R ⊆ AxA. R siendo de equivalencia.
+
+#### ¿Relación de equivalencia no vacía más pequeña posible?
+
+<center><img src="/eif203/images/identii.jpg" width=""/></center>
+
+Se conoce como relación identidad ya que cumple con las tres condiciones siendo las más pequeña.
+
+### Ejercicio de ejemplo 2
+
+Sean R1 y R2 dos relaciones sobre un conjunto A.
+
+#### ¿Si R1 y R2 son reflexivas (hipótesis) entonces la unión lo es?
+
+R1∪R2 = {(x,y) / (x,y) ∈ R1 ó (x,y) ∈ R2}
+
+R1∪R2 = {(x,y) / xR1y ó xR2y}
+
+> Hay que probar: x(R1∪R2)x, es verdadero
+
+> Es equivalente a: (x,x) ∈ R1∪R2
+
+> sii (x,x) ∈ R1 ó (x,x) ∈ R2 (con que una se cumpla es verdadero)
+
+> Es verdadero debido a que R1 y R2 son reflexivas (según hipótesis)
+
 <iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
