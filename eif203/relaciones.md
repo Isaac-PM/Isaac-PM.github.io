@@ -402,6 +402,204 @@ R1∪R2 = {(x,y) / xR1y ó xR2y}
 
 > Es verdadero debido a que R1 y R2 son reflexivas (según hipótesis)
 
+***
+
+# Operaciones 
+
+***
+
+Sea A un conjunto y R1 y R2 relaciones sobre A.
+
+### Ejemplo
+
+**A: personas**
+
+**R1: esAmigoDe**
+
+**R2: estudiaCon**
+
+**p** y **q** son personas en **A**:
+
+
+## Unión ∪
+
+> R1∪R2 = {(x,y) / xR1y ó xR2y}
+
+> x(R1∪R2)y sii xR1y ó xR2y
+
+Entonces si **p** y **q** son personas en **A**:
+
+> p(R1∪R2)q sii pR1q ó pR2q
+
+> R1∪R2: esAmigoDe ó estudiaCon
+
+> p(R1∪R2)q: p esAmigoDe q ó p estudiaCon q
+
+## Intersección ∩
+
+> R1∩R2 = {(x,y) / xR1y y xR2y}
+
+> x(R1∩R2)y sii xR1y y xR2y
+
+> R1∩R2: esAmigoDe y estudiaCon
+
+> p(R1∩R2)q: p esAmigoDe q y p estudiaCon q
+
+## Inversa R<sup>-1</sup>
+
+Sea R sobre A: R<sup>-1</sup> = {(y,x) / xRy}
+
+## Ejemplo
+
+A = {a, b, c, d}
+
+R1 = {(a,a), (a,c), (b,c), (c,b)}
+
+R2 = {(b,b), (b,c), (c,a)}
+
+### Calcule
+
+R1∪R2 = {(a,a), (a,c), (b,c), (c,b), (b,b), (c,a)}
+
+R1∩R2 = {(b,c)}
+
+R1<sup>-1</sup> = {(a,a), (c,a), (c,b), (b,c)}
+
+R2<sup>-1</sup> = {(b,b), (c,b), (a,c)}
+
+**Matriz de R1**
+
+| **-** | **a** | **b** | **c** | **d** |
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| **a** |   1   |   0   |   1   |   0   |
+| **b** |   0   |   0   |   1   |   0   |
+| **c** |   0   |   1   |   0   |   0   |
+| **d** |   0   |   0   |   0   |   0   |
+
+**Matriz de R2**
+
+| **-** | **a** | **b** | **c** | **d** |
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| **a** |   0   |   0   |   0   |   0   |
+| **b** |   0   |   1   |   1   |   0   |
+| **c** |   1   |   0   |   0   |   0   |
+| **d** |   0   |   0   |   0   |   0   |
+
+**Matriz de R1∪R2**
+
+Se hace uso de una conjunción lógica por cada entrada.
+
+| **-** | **a** | **b** | **c** | **d** |
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| **a** |   1   |   0   |   1   |   0   |
+| **b** |   0   |   1   |   1   |   0   |
+| **c** |   1   |   1   |   0   |   0   |
+| **d** |   0   |   0   |   0   |   0   |
+
+**Matriz de R1∩R2**
+
+Se hace uso de una disyunción lógica por cada entrada.
+
+| **-** | **a** | **b** | **c** | **d** |
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| **a** |   0   |   0   |   0   |   0   |
+| **b** |   0   |   0   |   1   |   0   |
+| **c** |   0   |   0   |   0   |   0   |
+| **d** |   0   |   0   |   0   |   0   |
+
+**Matriz de R1<sup>-1</sup>**
+
+Matriz transpuesta.
+
+| **-** | **a** | **b** | **c** | **d** |
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| **a** |   1   |   0   |   0   |   0   |
+| **b** |   0   |   0   |   1   |   0   |
+| **c** |   1   |   1   |   0   |   0   |
+| **d** |   0   |   0   |   0   |   0   |
+
+### Implementación en Python
+
+```python
+import numpy as np
+
+LR1 = [[1, 0, 1, 0], [0, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0,0]]
+
+LR1 = [[0, 0, 0, 0], [0, 1, 1, 0], [1, 0, 0, 0], [0, 0, 0,0]]
+
+MR1 = np.matrix(LR1)
+
+MR2 = np.matrix(LR2)
+
+MR1uMR2 = MR1 | MR2 # Unión.
+
+MR1yMR2 =  MR1 & MR2 # Intersección.
+
+MR1porMR2 = MR1 @ MR2 # Producto punto.
+
+MR1T= MR1.transpose() # Transpuesta.
+```
+***
+
+## Composición
+
+Sea R1 sobre A → (en) B
+
+Sea R2 sobre B → C
+
+(Se necesita el B en común)
+
+x(R1·R2)y sii ∃ z / xR1z y zR2y
+
+<center><img src="/eif203/images/compo.jpg" width=""/></center>
+
+### Ejemplo
+
+A: personas = {Juan, María, ...}
+
+B: videojuegos = {fifa2022, mario, ...}
+
+C: precios = {$50, $20, $100, ...}
+
+R1: compra
+
+R2: vale
+
+> Juan compra fifa2022
+
+> fifa2022 vale 20, 50, 100
+
+> R1·R2 → Juan(compra·vale)y sii ∃ z / Juan compra un z y un z vale y → Juan compra un videojuego y un videojuego vale 20
+
+<center><img src="/eif203/images/juan.jpg" width=""/></center>
+
+```python
+"""
+La composición en Python se denota como el producto punto.
+"""
+MR1oMR2 = MR1 @ MR2 
+```
+Sea la siguiente matriz el resultado de MR1·MR2
+
+| **-** | **a** | **b** | **c** | **d** |
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| **a** |   1   |   0   |   0   |   0   |
+| **b** |   1   |   0   |   0   |   0   |
+| **c** |   0   |   1   |   1   |   0   |
+| **d** |   0   |   0   |   0   |   0   |
+
+<center><img src="/eif203/images/matr.jpg" width=""/></center>
+
+Los números indican la cantidad de "caminos" que existen para llegar a un dato.
+
+### Ejemplo
+
+<center><img src="/eif203/images/matr.jpg" width=""/></center>
+
+## Composición múltiple
+
+<center><img src="/eif203/images/rmul.jpg" width=""/></center>
+
 <iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <center><sub><sup>Derechos reservados a los propietarios de las imágenes, enlace disponible en estas.</sup></sub></center>
