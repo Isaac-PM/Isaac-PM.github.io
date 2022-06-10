@@ -13971,16 +13971,26 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Investigaci%C3%B3n-algoritmo-de-Kruskal">Investigaci&#243;n algoritmo de Kruskal<a class="anchor-link" href="#Investigaci%C3%B3n-algoritmo-de-Kruskal">&#182;</a></h1><h3 id="Estudiante:-Isaac-Fabi%C3%A1n-Palma-Medina-@-">Estudiante: Isaac Fabi&#225;n Palma Medina @ <a href="https://github.com/Isaac-PM" /><a class="anchor-link" href="#Estudiante:-Isaac-Fabi%C3%A1n-Palma-Medina-@-">&#182;</a></h3><h3 id="Escuela-de-Inf%C3%B3rmatica,-Universidad-Nacional-de-Costa-Rica-@-">Escuela de Inf&#243;rmatica, Universidad Nacional de Costa Rica @ <a href="https://www.escinf.una.ac.cr/" /><a class="anchor-link" href="#Escuela-de-Inf%C3%B3rmatica,-Universidad-Nacional-de-Costa-Rica-@-">&#182;</a></h3><h3 id="EIF203-NRC41713-Estructuras-discretas-para-inf%C3%B3rmatica">EIF203 NRC41713 Estructuras discretas para inf&#243;rmatica<a class="anchor-link" href="#EIF203-NRC41713-Estructuras-discretas-para-inf%C3%B3rmatica">&#182;</a></h3><h3 id="Docente:-Dr.-Carlos-Lor%C3%ADa-Sa%C3%A9nz-@-">Docente: Dr. Carlos Lor&#237;a Sa&#233;nz @ <a href="loriacarlos@gmail.com" /><a class="anchor-link" href="#Docente:-Dr.-Carlos-Lor%C3%ADa-Sa%C3%A9nz-@-">&#182;</a></h3><hr>
+<h1 id="Investigaci%C3%B3n-algoritmo-de-Kruskal">Investigaci&#243;n algoritmo de Kruskal<a class="anchor-link" href="#Investigaci%C3%B3n-algoritmo-de-Kruskal">&#182;</a></h1><h3 id="Estudiante:-Isaac-Fabi%C3%A1n-Palma-Medina-@-https://github.com/Isaac-PM">Estudiante: Isaac Fabi&#225;n Palma Medina @ <a href="https://github.com/Isaac-PM">https://github.com/Isaac-PM</a><a class="anchor-link" href="#Estudiante:-Isaac-Fabi%C3%A1n-Palma-Medina-@-https://github.com/Isaac-PM">&#182;</a></h3><h3 id="Escuela-de-Inf%C3%B3rmatica,-Universidad-Nacional-de-Costa-Rica-@-https://www.escinf.una.ac.cr/">Escuela de Inf&#243;rmatica, Universidad Nacional de Costa Rica @ <a href="https://www.escinf.una.ac.cr/">https://www.escinf.una.ac.cr/</a><a class="anchor-link" href="#Escuela-de-Inf%C3%B3rmatica,-Universidad-Nacional-de-Costa-Rica-@-https://www.escinf.una.ac.cr/">&#182;</a></h3><h3 id="EIF203-NRC41713-Estructuras-discretas-para-inf%C3%B3rmatica">EIF203 NRC41713 Estructuras discretas para inf&#243;rmatica<a class="anchor-link" href="#EIF203-NRC41713-Estructuras-discretas-para-inf%C3%B3rmatica">&#182;</a></h3><h3 id="Docente:-Dr.-Carlos-Lor%C3%ADa-Sa%C3%A9nz-@-loriacarlos@gmail.com">Docente: Dr. Carlos Lor&#237;a Sa&#233;nz @ loriacarlos@gmail.com<a class="anchor-link" href="#Docente:-Dr.-Carlos-Lor%C3%ADa-Sa%C3%A9nz-@-loriacarlos@gmail.com">&#182;</a></h3><hr>
 <h1 id="Noci%C3%B3n">Noci&#243;n<a class="anchor-link" href="#Noci%C3%B3n">&#182;</a></h1><p>El algoritmo de <strong>Kruskal</strong> es usado en la tarea de encontrar el <em>minimum spanning tree</em> (MST) de un grafo conectado no dirigido.<sup>1</sup></p>
 <p>Un <strong>MST</strong> se trata de un subconjunto (conectado) de todos los vértices de un grafo, relacionados por medio arcos cuya suma de pesos debe ser la <strong>menor posible</strong>.<sup>2</sup></p>
-<h1 id="Pasos1,-3">Pasos<sup>1, 3</sup><a class="anchor-link" href="#Pasos1,-3">&#182;</a></h1><ol>
-<li>Primeramente, los pesos de los arcos del grafo son ordenados de manera ascendente, visitando cada par de vértices y el arco que los conecta.</li>
-<li>Seguidamente se visualizan (escriben) los vértices sin sus arcos.</li>
-<li>Finalmente, son añadidos los arcos según el orden en el que fueron escritos, además de verificar que no se creen ciclos, hasta conseguir un grafo conectado. Es importante denotar que para la cantidad de vértices (|V|), son necesarios un máximo de |V| -  1 arcos.</li>
+<p>El algoritmo toma su nombre de <strong>Joseph Kruskal</strong> (matemático y estadístico estadounidense), y fue publicado en 1956.<sup>5</sup></p>
+<hr>
+<h1 id="Pasos">Pasos<a class="anchor-link" href="#Pasos">&#182;</a></h1><ol>
+<li>Primeramente, los pesos de los arcos del grafo son ordenados de manera ascendente, visitando cada par de vértices y el arco que los conecta.<sup>1, 3</sup></li>
+<li>Seguidamente se visualizan (escriben) los vértices sin sus arcos.<sup>1, 3</sup></li>
+<li>Finalmente, son añadidos los arcos según el orden en el que fueron escritos, además de verificar que no se creen ciclos (si un arco generara un cilo este se descarta y se continua con el siguiente), hasta conseguir un grafo conectado. Es importante denotar que para la cantidad de vértices (|V|), son necesarios un máximo de |V| -  1 arcos.<sup>1, 3</sup></li>
 </ol>
 <p>Bajo el proceso anterior la suma del peso de los arcos será la mínima posible, llegando a un MST.<sup>4</sup></p>
-<h1 id="Implementaci%C3%B3n-a-mano">Implementaci&#243;n a mano<a class="anchor-link" href="#Implementaci%C3%B3n-a-mano">&#182;</a></h1><h2 id="Dado-el-siguiente-grafo">Dado el siguiente grafo<a class="anchor-link" href="#Dado-el-siguiente-grafo">&#182;</a></h2><center><img src="/eif203/images/kruskal1.png" width=""/></center><h2 id="Paso-1-y-2:-obtenci%C3%B3n-de-los-pesos-y-ordenamiento">Paso 1 y 2: obtenci&#243;n de los pesos y ordenamiento<a class="anchor-link" href="#Paso-1-y-2:-obtenci%C3%B3n-de-los-pesos-y-ordenamiento">&#182;</a></h2><center><img src="/eif203/images/kruskal2.png" width=""/></center><h2 id="Paso-3:--conexi%C3%B3n-final">Paso 3:  conexi&#243;n final<a class="anchor-link" href="#Paso-3:--conexi%C3%B3n-final">&#182;</a></h2><center><img src="/eif203/images/kruskal3.png" width=""/></center><h1 id="Implementaci%C3%B3n-en-c%C3%B3digo">Implementaci&#243;n en c&#243;digo<a class="anchor-link" href="#Implementaci%C3%B3n-en-c%C3%B3digo">&#182;</a></h1>
+<hr>
+<h1 id="Implementaci%C3%B3n-a-mano">Implementaci&#243;n a mano<a class="anchor-link" href="#Implementaci%C3%B3n-a-mano">&#182;</a></h1><h2 id="Dado-el-siguiente-grafo">Dado el siguiente grafo<a class="anchor-link" href="#Dado-el-siguiente-grafo">&#182;</a></h2><center><img src="/eif203/images/kruskal1.png" width=""/></center><h2 id="Paso-1-y-2:-obtenci%C3%B3n-de-los-pesos-y-ordenamiento">Paso 1 y 2: obtenci&#243;n de los pesos y ordenamiento<a class="anchor-link" href="#Paso-1-y-2:-obtenci%C3%B3n-de-los-pesos-y-ordenamiento">&#182;</a></h2><center><img src="/eif203/images/kruskal2.png" width=""/></center><h2 id="Paso-3:--conexi%C3%B3n-final">Paso 3:  conexi&#243;n final<a class="anchor-link" href="#Paso-3:--conexi%C3%B3n-final">&#182;</a></h2><center><img src="/eif203/images/kruskal3.png" width=""/></center><hr>
+<h1 id="Implementaci%C3%B3n-en-c%C3%B3digo">Implementaci&#243;n en c&#243;digo<a class="anchor-link" href="#Implementaci%C3%B3n-en-c%C3%B3digo">&#182;</a></h1><p>El proceso a seguir en la implementación programada sigue muy de cerca los pasos anteriormente expuestos, haciendo determinadas anotaciones<sup>5</sup>:</p>
+<ul>
+<li>A cada vértice por separado se le da el nombre de <strong>bosque</strong>.</li>
+<li><strong>C</strong> se denomina como el conjunto de todos los arcos del grafo.</li>
+</ul>
+<p>"Al acabar el algoritmo, el bosque tiene un solo componente, el cual forma un árbol de expansión mínimo del grafo."<sup>5</sup></p>
+<h2 id="C%C3%B3digo-en-Python">C&#243;digo en Python<a class="anchor-link" href="#C%C3%B3digo-en-Python">&#182;</a></h2>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -13990,10 +14000,10 @@ a.anchor-link {
 <li>Minimum Spanning Tree Tutorials &amp; Notes | Algorithms | HackerEarth. (2022). Recuperado de <a href="https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial">https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial</a></li>
 <li>Bari, A. (2018). 3.5 Prims and Kruskals Algorithms - Greedy Method. Youtube. Recuperado de <a href="https://www.youtube.com/watch?v=4ZlRH0eK-qQ">https://www.youtube.com/watch?v=4ZlRH0eK-qQ</a></li>
 <li>Universitat Politècnica de València- Upv, U. P. (2013). S4.4- Algoritmo de Kruskal | | UPV. Youtube. Recuperado de <a href="https://www.youtube.com/watch?v=YHzllcQpEdA">https://www.youtube.com/watch?v=YHzllcQpEdA</a></li>
-<li></li>
+<li>Colaboradores de los proyectos Wikimedia. (2020). Algoritmo de Kruskal - Wikipedia, la enciclopedia libre. Recuperado de <a href="https://es.wikipedia.org/w/index.php?title=Algoritmo_de_Kruskal&amp;oldid=130982430">https://es.wikipedia.org/w/index.php?title=Algoritmo_de_Kruskal&amp;oldid=130982430</a></li>
 </ol>
-<center><sub><sup>Created using Jupyter Notebook, translated to HTML by using `jupyter nbconvert --to html .\kruskal.ipynb` on Visual Studio Code v1.68</sup></sub></center>
-<center><sub><sup>Hosted in GitHub Pages @ [](https://isaac-palmed.xyz/)</sup></sub></center>
+<center><sub><sup>Created using Jupyter Notebook, translated to HTML by using <code>jupyter nbconvert --to html .\kruskal.ipynb</code> on Visual Studio Code v1.68</sup></sub></center>
+<center><sub><sup>Hosted on GitHub Pages @ https://isaac-palmed.xyz/</sup></sub></center>
 </div>
 </div>
 </body>
