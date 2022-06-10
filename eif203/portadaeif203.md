@@ -36,18 +36,15 @@
 
 [Ver documento](/eif203/testJupyter)
 
-### Testing Jupyter HTML
+### Testing Jupyter HTML Converted
 
 [Ver documento](/eif203/testJupyterConverted)
 
-### Testing Jupyter NOTEBOOK
+**[¡Regrésame!](/index)**
 
-[Ver documento](/eif203/testJupyter)
+### Testing low code HTML TeleportHQ
 
-### Testing Jupyter HTML Explicit
-
-[Ver documento](/eif203/testJupyterConverted.html)
-
+[Ver documento](/eif203/home.html)
 
 **[¡Regrésame!](/index)**
 
