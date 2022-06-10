@@ -32,19 +32,9 @@
 
 [Ver documento](/eif203/relaciones)
 
-### Testing Jupyter NOTEBOOK
+### Kruskal (Jupyter Notebook)
 
-[Ver documento](/eif203/testJupyter)
-
-### Testing Jupyter HTML Converted
-
-[Ver documento](/eif203/testJupyterConverted)
-
-**[¡Regrésame!](/index)**
-
-### Testing low code HTML TeleportHQ
-
-[Ver documento](/eif203/home.html)
+[Ver documento](/eif203/kruskal)
 
 **[¡Regrésame!](/index)**
 
