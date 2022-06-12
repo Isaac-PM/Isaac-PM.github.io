@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+	<key id="d1" for="edge" attr.name="weight" attr.type="double"/>
+	<graph id="graph" edgedefault="undirected">
+  
+    <node id="a"/>
+	<node id="b"/>
+	<node id="c"/>
+	<node id="d"/>
+	<node id="e"/>
+	<node id="f"/>
+	<node id="g"/>
+	
+	<edge id="e0" source="a" target="b">
+      <data key="d1">4.0</data>
+    </edge>
+	<edge id="e1" source="a" target="c">
+      <data key="d1">9.0</data>
+    </edge>
+	<edge id="e2" source="a" target="d">
+      <data key="d1">3.0</data>
+    </edge>
+	
+	<edge id="e3" source="b" target="f">
+      <data key="d1">7.0</data>
+    </edge>
+	<edge id="e1" source="b" target="c">
+      <data key="d1">5.0</data>
+    </edge>
+	
+	<edge id="e4" source="c" target="e">
+      <data key="d1">6.0</data>
+    </edge>
+	<edge id="e5" source="c" target="d">
+      <data key="d1">1.0</data>
+    </edge>
+	
+	<edge id="e6" source="d" target="e">
+      <data key="d1">2.0</data>
+    </edge>
+	<edge id="e7" source="d" target="g">
+      <data key="d1">4.0</data>
+    </edge>
+	
+	<edge id="e8" source="e" target="f">
+      <data key="d1">8.0</data>
+    </edge>
+	<edge id="e9" source="e" target="g">
+      <data key="d1">7.0</data>
+    </edge>
+	
+	<edge id="e10" source="f" target="g">
+      <data key="d1">2.0</data>
+    </edge>
+  </graph>
+</graphml> 

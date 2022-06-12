@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+	<key id="d1" for="edge" attr.name="weight" attr.type="double"/>
+	<graph id="graph" edgedefault="undirected">
+  
+    <node id="a"/>
+	<node id="b"/>
+	<node id="c"/>
+	<node id="d"/>
+	<node id="e"/>
+	<node id="f"/>
+	<node id="g"/>
+	<node id="h"/>
+	<node id="i"/>
+	<node id="j"/>
+	
+	<edge id="e1" source="a" target="b">
+      <data key="d1">5.0</data>
+    </edge>
+	<edge id="e2" source="a" target="d">
+      <data key="d1">4.0</data>
+    </edge>
+	<edge id="e3" source="a" target="e">
+      <data key="d1">1.0</data>
+    </edge>
+	
+	<edge id="e4" source="b" target="c">
+      <data key="d1">4.0</data>
+    </edge>
+	<edge id="e5" source="b" target="d">
+      <data key="d1">2.0</data>
+    </edge>
+	
+	<edge id="e6" source="c" target="h">
+      <data key="d1">4.0</data>
+    </edge>
+	<edge id="e7" source="c" target="i">
+      <data key="d1">1.0</data>
+    </edge>
+	<edge id="e8" source="c" target="j">
+      <data key="d1">2.0</data>
+    </edge>
+	
+	<edge id="e9" source="d" target="e">
+      <data key="d1">2.0</data>
+    </edge>
+	<edge id="e10" source="d" target="f">
+      <data key="d1">5.0</data>
+    </edge>
+	<edge id="e11" source="d" target="g">
+      <data key="d1">11.0</data>
+    </edge>
+	<edge id="e12" source="d" target="h">
+      <data key="d1">2.0</data>
+    </edge>
+	
+	<edge id="e13" source="e" target="f">
+      <data key="d1">1.0</data>
+    </edge>
+	
+	<edge id="e13" source="f" target="g">
+      <data key="d1">7.0</data>
+    </edge>
+	
+	<edge id="e14" source="g" target="h">
+      <data key="d1">1.0</data>
+    </edge>
+	<edge id="e15" source="g" target="i">
+      <data key="d1">4.0</data>
+    </edge>
+	
+	<edge id="e16" source="h" target="i">
+      <data key="d1">6.0</data>
+    </edge>
+	
+	<edge id="e17" source="i" target="j">
+      <data key="d1">0.0</data>
+    </edge>
+	
+  </graph>
+</graphml> 
