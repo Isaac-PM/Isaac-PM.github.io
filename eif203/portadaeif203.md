@@ -32,10 +32,6 @@
 
 [Ver documento](/eif203/relaciones)
 
-### Kruskal (Jupyter Notebook)
-
-[Ver documento](/eif203/kruskal)
-
 **[¡Regrésame!](/index)**
 
 <center><sub><sup>La información suministrada en este índice está basada en sesiones sincrónicas de un curso universitario, a partir de los apuntes del propio autor. Derechos reservados al docente encargado.</sup></sub></center>
