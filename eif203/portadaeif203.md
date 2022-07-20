@@ -4,7 +4,8 @@
 
 <center> Esta información ya no se encuentra disponible, si la necesita, contacte con el propietario del sitio. </center>
 
-<center> <iframe src="https://giphy.com/embed/3o6MbbwX2g2GA4MUus" width="480" height="364" </iframe> </center> 
+
+<center><img src="https://giphy.com/embed/3o6MbbwX2g2GA4MUus" width="480" height="364" /></center> 
 
 <!---
 
