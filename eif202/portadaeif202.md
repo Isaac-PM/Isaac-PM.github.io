@@ -1,8 +1,14 @@
 # EIF - 202 Soporte técnico
 
+## I Ciclo 2022 - NRC 41706 - Docente a cargo: GOMEZ FERNANDEZ, CAROLINA
+
+<center> Esta información ya no se encuentra disponible, si la necesita, contacte con el propietario del sitio. </center>
+
+<!---
+
 ## NRC 41706
 
-## I Ciclo 2022
+## I Ciclo 2022 
 
 ### Conceptos básicos de la electricidad
 
@@ -19,5 +25,7 @@
 ### Tarjetas madre
 
 [Ver documento](/eif202/apuntes4)
+
+-->
 
 **[¡Regrésame!](/index)**

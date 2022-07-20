@@ -1,5 +1,11 @@
 # EIF - 203 Estructuras discretas
 
+## I Ciclo 2022 - NRC 40033 - Docente a cargo: LORIA SAENZ, CARLOS
+
+<center> Esta información ya no se encuentra disponible, si la necesita, contacte con el propietario del sitio. </center>
+
+<!---
+
 ## NRC 40033
 
 ## I Ciclo 2022
@@ -32,6 +38,8 @@
 
 [Ver documento](/eif203/relaciones)
 
-**[¡Regrésame!](/index)**
-
 <center><sub><sup>La información suministrada en este índice está basada en sesiones sincrónicas de un curso universitario, a partir de los apuntes del propio autor. Derechos reservados al docente encargado.</sup></sub></center>
+
+-->
+
+**[¡Regrésame!](/index)**
