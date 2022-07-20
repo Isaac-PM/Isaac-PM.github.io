@@ -1,5 +1,7 @@
 # isaac-palmed.xyz
 
+> Estudiante tutor de ingeniería en sistemas de información.
+
 # ¡Bienvenido a este sitio!
 
 ***
