@@ -3,11 +3,10 @@
 ## I Ciclo 2022 - NRC 41706 - Docente a cargo: GOMEZ FERNANDEZ, CAROLINA
 
 ***
+<br />
 
 <center> Esta información ya no se encuentra disponible, si la necesita, contacte con el propietario del sitio. </center>
 
-<br />
-<center>✦</center>
 <br />
 
 <center><img src="https://media.giphy.com/media/3o6MbbwX2g2GA4MUus/giphy.gif" width="480" height="364" /></center> 
