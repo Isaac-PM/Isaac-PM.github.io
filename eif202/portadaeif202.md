@@ -1,4 +1,4 @@
-# isaac-palmed.xyz
+# EIF - 202 Soporte técnico
 
 ## I Ciclo 2022 - NRC 41706 - Docente a cargo: GOMEZ FERNANDEZ, CAROLINA
 
