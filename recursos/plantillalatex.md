@@ -18,6 +18,8 @@ Se utiliza [natbib](https://es.overleaf.com/learn/latex/Bibliography_management_
 
 [Ver proyecto](https://es.overleaf.com/latex/templates/plantilla-apa7/swsvntsgyvbx)
 
+<!--- 
+
 <br>
 
 ## Código fuente
@@ -102,8 +104,8 @@ aunque por conjeturas verosímiles se deja entender que se llamaba Quijana.
 
 \end{document}
 ```
-
 <br>
+-->
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
 

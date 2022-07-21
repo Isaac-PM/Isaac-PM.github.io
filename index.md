@@ -2,7 +2,21 @@
 
 > Estudiante tutor de ingeniería en sistemas de información.
 
+***
+
 # ¡Bienvenido a este sitio!
+
+<center><img src="https://media.giphy.com/media/Vj3hfUSFu13HXTrI0o/giphy.gif" width="480" height="364" /></center> 
+
+***
+
+# Índice
+
+## Tutorías
+
+### Nombre_Del_Curso
+
+[EIF000 - Enlace_Al_Curso](eif202/portadaeif202.md)
 
 ***
 
@@ -14,17 +28,26 @@
 
 ***
 
+## Recursos
+
 ## Recursos personales
 
-[Plantilla APA-7 Microsoft Word](plantillas/plantillaword.md)
+[Plantilla APA-7 Microsoft Word](recursos/plantillaword.md)
 
-[Plantilla APA-7 LaTeX](plantillas/plantillalatex.md)
+[Plantilla APA-7 LaTeX](recursos/plantillalatex.md)
 
-[Instalación desde cero de Arch Linux](plantillas/arch.md)
+[C++ en cuadernos de Jupyter](jupytercpp/plantillalatex.md)
+
+## Recursos externos
+
 
 ***
 
-## Comunicación
+## Perfil
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Isaac-PM&theme=default)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Isaac-PM&theme=default)
 
 [Contacto](/contacto.md)
 
@@ -40,8 +63,5 @@
 <center><sub><sup>Al usar, copiar o distribuir este proyecto o sus contenidos, usted acepta los términos anteriormente expuestos.</sup></sub></center>
 -->
 
-<center><sub><sup>Derechos reservados al equipo de https://github.com/pages-themes/hacker</sup></sub></center>
-
-<center><sub><sup>Derechos reservados a los creadores / propietarios de las imágenes y docentes encargados.</sup></sub></center>
 
 ![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
