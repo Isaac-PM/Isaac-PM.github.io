@@ -40,7 +40,7 @@
 
 [Plantilla APA-7 LaTeX](recursos/plantillalatex.md)
 
-[C++ en cuadernos de Jupyter](jupytercpp/plantillalatex.md)
+[C++ en cuadernos de Jupyter](recursos/jupytercpp.md)
 
 ## Recursos externos
 
@@ -58,5 +58,7 @@
 
 <center><sub><sup>Al usar, copiar o distribuir este proyecto o sus contenidos, usted acepta los términos anteriormente expuestos.</sup></sub></center>
 -->
+
+<br>
 
 <center> <img src="https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg"> </center> 

@@ -1,5 +1,7 @@
 # Plantilla APA-7 LaTeX
 
+***
+
 ## Vista previa
 
 <center><iframe src="https://drive.google.com/file/d/1jSTj-15-ZTI0jEQpaq22Rs_HC10hCXop/preview" width="832" height="624" allow="autoplay"></iframe></center>
@@ -107,6 +109,8 @@ aunque por conjeturas verosímiles se deja entender que se llamaba Quijana.
 <br>
 -->
 
-![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
+<br>
+
+<center> <img src="https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg"> </center> 
 
 **[¡Regrésame!](/index)**
