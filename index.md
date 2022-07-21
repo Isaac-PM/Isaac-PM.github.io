@@ -3,16 +3,15 @@
 > Estudiante tutor de ingeniería en sistemas de información.
 
 ***
-
+<!---
 # ¡Bienvenido a este sitio!
+-->
 
 <center><img src="https://media.giphy.com/media/Vj3hfUSFu13HXTrI0o/giphy.gif" width="480" height="364" /></center> 
 
 ***
 
-# Tutorías
-
-## Nombre_Del_Curso
+# Tutoría: Nombre_Del_Curso
 
 [EIF000 - Enlace_Al_Curso](eif202/portadaeif202.md)
 
@@ -36,6 +35,8 @@
 [Plantilla APA-7 LaTeX](recursos/plantillalatex.md)
 
 [C++ en cuadernos de Jupyter](recursos/jupytercpp.md)
+
+***
 
 # Recursos externos
 
