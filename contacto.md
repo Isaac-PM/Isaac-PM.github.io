@@ -3,6 +3,7 @@
 ***
 
 ## Correo electrónico
+
 [isaac.palma.medina@est.una.ac.cr](mailto:isaac.palma.medina@est.una.ac.cr)
 
 [isaacpalma21@gmail.com](mailto:isaacpalma21@gmail.com)
@@ -10,6 +11,10 @@
 ## Discord
 
 [Isaac0321#3640](https://discordapp.com/users/Isaac0321#3640)
+
+## GitHub
+
+[Isaac-PM](https://github.com/Isaac-PM)
 
 ## Perfil
 
