@@ -1,5 +1,7 @@
 # Contacto
 
+***
+
 ## Correo electrónico
 [isaac.palma.medina@est.una.ac.cr](mailto:isaac.palma.medina@est.una.ac.cr)
 

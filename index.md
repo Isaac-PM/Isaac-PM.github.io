@@ -12,12 +12,15 @@
 
 # Índice
 
+***
+
 ## Tutorías
 
 ### Nombre_Del_Curso
 
 [EIF000 - Enlace_Al_Curso](eif202/portadaeif202.md)
 
+<!---
 ***
 
 ## Enlaces cerrados
@@ -26,8 +29,9 @@
 
 [EIF203 - Estructuras discretas](eif203/portadaeif203.md)
 
-***
+-->
 
+***
 ## Recursos
 
 ## Recursos personales
@@ -43,15 +47,7 @@
 
 ***
 
-## Perfil
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Isaac-PM&theme=default)
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Isaac-PM&theme=default)
-
-[Contacto](/contacto.md)
-
-***
+<center>  <a href="https://isaac-palmed.xyz/contacto.html">Contacto</a> </center>
 
 <!---
 <center><sub><sup>Esta página web fue creada con fines académicos, y de acceso personal. De ninguna manera representa o vincula oficialmente a alguna institución.</sup></sub></center>
@@ -63,5 +59,4 @@
 <center><sub><sup>Al usar, copiar o distribuir este proyecto o sus contenidos, usted acepta los términos anteriormente expuestos.</sup></sub></center>
 -->
 
-
-![](https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg)
+<center> <img src="https://img.shields.io/badge/License-CC\_BY--SA\_4.0-lightgrey.svg"> </center> 
