@@ -3,9 +3,6 @@
 > Estudiante tutor de ingeniería en sistemas de información.
 
 ***
-<!---
-# ¡Bienvenido a este sitio!
--->
 
 <center><img src="https://media.giphy.com/media/Vj3hfUSFu13HXTrI0o/giphy.gif" width="480" height="364" /></center> 
 
@@ -15,26 +12,23 @@
 
 [EIF000 - Enlace_Al_Curso](eif202/portadaeif202.md)
 
-<!---
-***
-
-## Enlaces cerrados
-
-[EIF202 - Soporte técnico](eif202/portadaeif202.md)
-
-[EIF203 - Estructuras discretas](eif203/portadaeif203.md)
-
--->
-
 ***
 
 # Recursos personales
+
+## Enlaces activos
 
 [Plantilla APA-7 Microsoft Word](recursos/plantillaword.md)
 
 [Plantilla APA-7 LaTeX](recursos/plantillalatex.md)
 
 [C++ en cuadernos de Jupyter](recursos/jupytercpp.md)
+
+## Enlaces cerrados
+
+[EIF202 - Soporte técnico](eif202/portadaeif202.md)
+
+[EIF203 - Estructuras discretas](eif203/portadaeif203.md)
 
 ***
 
