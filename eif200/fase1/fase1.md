@@ -8,8 +8,6 @@
 
 <center><iframe src="https://drive.google.com/file/d/1qm0n2Sbflr5EntqUgEezCNMJ_INa0NZY/preview" width="624" height="468" allow="autoplay"></iframe></center>
 
-<br>
-
 ### Descarga
 
 [Descargar aquí](https://drive.google.com/file/d/1qm0n2Sbflr5EntqUgEezCNMJ_INa0NZY/view?usp=sharing)
