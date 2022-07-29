@@ -1,16 +1,16 @@
-# isaac-palmed.xyz
+# isaac-pm.github.io
 
 > Estudiante tutor de ingeniería en sistemas de información.
 
 ***
 
-<center><img src="https://media.giphy.com/media/Vj3hfUSFu13HXTrI0o/giphy.gif" width="480" height="364" /></center> 
+<center><img src="https://media.giphy.com/media/Vj3hfUSFu13HXTrI0o/giphy.gif" width="" height="" /></center> 
 
 ***
 
-# Tutoría: Nombre_Del_Curso
+# Tutoría: Fundamentos de informática
 
-[EIF000 - Enlace_Al_Curso](eif202/portadaeif202.md)
+[EIF200 - Fundamentos de informática](eif200/index_eif200.md)
 
 ***
 
