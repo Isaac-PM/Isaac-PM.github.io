@@ -6,7 +6,7 @@
 
 ## Instalación de Zinjai IDE
 
-<center><iframe src="https://drive.google.com/file/d/1qm0n2Sbflr5EntqUgEezCNMJ_INa0NZY/preview" width="416" height="312" allow="autoplay"></iframe></center>
+<center><iframe src="https://drive.google.com/file/d/1qm0n2Sbflr5EntqUgEezCNMJ_INa0NZY/preview" width="624" height="468" allow="autoplay"></iframe></center>
 
 <br>
 

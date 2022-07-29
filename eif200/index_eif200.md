@@ -32,7 +32,7 @@ En esta sección serán cubiertos los siguientes temas:
     - `do {...} while (...)`
     - `for (...){...}`
 
-[Enlace a la sección](/eif200/fase1/fase1.md)
+[Enlace a la sección](/eif200/fase1/fase1)
 
 ***
 
