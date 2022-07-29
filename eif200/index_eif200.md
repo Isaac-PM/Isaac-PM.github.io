@@ -1,6 +1,6 @@
 # EIF - 200 Fundamentos de informática
 
-## II Ciclo 2022, tutoría
+## II Ciclo 2022
 
 ***
 
@@ -8,7 +8,7 @@
 
 ***
 
-# Fase I: introducción al lenguaje
+# Fase I: introducción al lenguaje y demás
 
 > "La cueva a la que tememos entrar tiene el tesoro que buscamos." ~ Joseph J. Campbell
 
@@ -32,7 +32,7 @@ En esta sección serán cubiertos los siguientes temas:
     - `do {...} while (...)`
     - `for (...){...}`
 
-[Enlace a la sección](...)
+[Enlace a la sección](/eif200/fase1/fase1.md)
 
 ***
 
