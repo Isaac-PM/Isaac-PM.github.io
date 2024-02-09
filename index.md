@@ -1,3 +1,9 @@
+<style>
+#header {
+    display: none;
+}
+</style>
+
 # Index
 
 - [What is it?](#what-is-it)
