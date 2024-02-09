@@ -1,7 +1,26 @@
-# About the "Kuik" project
+# Index
 
-> Estudiante tutor de ingeniería en sistemas de información.
+- [What is it?](#what-is-it)
+  - [Branding](#branding)
+  - [Mission](#mission)
+  - [Vision](#vision)
+  - [Project type](#project-type)
+- [My role in the project](#my-role-in-the-project)
+- [Development status](#development-status)
+- [Gallery](#gallery)
 
-<center><img src="https://i.giphy.com/media/3o7ZeqKET7GEXPiC8U/giphy.webp" width="" height="" /></center>
+# What is it?
 
-<!--almacenamiento-segur0-->
+## Branding
+
+## Mission
+
+## Vision
+
+## Project type
+
+# My role in the project
+
+# Development status
+
+# Gallery
