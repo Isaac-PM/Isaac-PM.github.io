@@ -6,7 +6,23 @@
 section {
     margin-top: 0 !important;
 }
+
+.warning {
+    background-color: #F9C701;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
 </style>
+
+<div class="warning">
+    <b>Kuik</b> is not yet publicly available. The content found on the domains <i>kuikcr.com</i> and <i>isaac-pm.github.io</i> <b>does not fully represent the final product</b>. This website is dedicated to providing information about the development progress of the <b>Kuik</b> POS software.
+    <br>
+    <br>
+    <b>Kuik</b> aún no está disponible públicamente. El contenido encontrado en los dominios <i>kuikcr.com</i> e <i>isaac-pm.github.io</i> <b>no representa completamente el producto final</b>. Este sitio web está dedicado a proporcionar información sobre el progreso del desarrollo del software POS <b>Kuik</b>.
+</div>
+<br>
 
 # Index
 
