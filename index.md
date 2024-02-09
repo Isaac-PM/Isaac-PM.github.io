@@ -13,6 +13,7 @@ section {
     padding: 10px;
     text-align: center;
     font-size: 1.3em;
+    padding: 1rem;
 }
 </style>
 
