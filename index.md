@@ -1,6 +1,10 @@
 <style>
 #header {
-    display: none;
+    display: none !important;
+}
+
+section {
+    margin-top: 0 !important;
 }
 </style>
 
