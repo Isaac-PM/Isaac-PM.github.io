@@ -3,7 +3,7 @@
         "title": "Migration of LHCb Algorithms to the GPU-Optimized Allen Framework",
         "institution": "National Collaboratory for Advanced Computing (CNCA) from the Costa Rica's High Technology Center (CeNAT)",
         "location": "Costa Rica",
-        "description": "Contributing to the LHCb experiment at CERN by focusing on the migration of algorithms from a CPU-based processing framework to the Allen environment, optimized for GPUs. Allen serves as a core element in data processing for LHCb, allowing for significant performance improvements in real-time event reconstruction and analysis.",
+        "description": "Participating in engineering activities related to the LHCb experiment at CERN, focusing on migrating algorithms from a CPU processing framework to the Allen environment, which is optimized for GPU use and is a key component in the experiment's data processing.",
         "link": "https://gitlab.cern.ch/lhcb/Allen/-/merge_requests/1698",
         "linkTitle": "GitLab repository"
     },

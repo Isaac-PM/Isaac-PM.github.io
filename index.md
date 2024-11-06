@@ -85,9 +85,9 @@
 
 # Get to know me better
 
-- [Curriculum Vitae]()
-- [LinkedIn]()
-- [GitHub]()
+- [Curriculum Vitae](https://docs.google.com/document/d/1un7FNYTEKo4YafUfY3OpQZGoRcRKdxO6h-QYmTAoyts/edit?usp=sharing)
+- [LinkedIn](www.linkedin.com/in/isaac-palma-medina-9301a1264)
+- [GitHub](https://github.com/Isaac-PM)
 
 <small>
 Last updated: 2024-11-06
