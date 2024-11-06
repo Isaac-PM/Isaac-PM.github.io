@@ -77,33 +77,6 @@
     color: #fff;
     border-color: #555;
   }
-
-  .profile-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #333;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
-  }
-
-  .profile-container a {
-    margin-right: 20px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-  }
-
-  .profile-container a:hover {
-    text-decoration: underline;
-  }
-
-  .profile-container .button-midnight {
-    margin-right: 10px;
-  }
 </style>
 
 # Current work
@@ -112,11 +85,13 @@
 
 # Get to know me better
 
-<div class="profile-container">
-  <a href="${cvLink}" class="button-midnight">My CV</a>
-  <a href="${linkedinLink}" class="button-midnight">LinkedIn</a>
-  <a href="${githubLink}" class="button-midnight">GitHub</a>
-</div>
+- [Curriculum Vitae]()
+- [LinkedIn]()
+- [GitHub]
+
+<small>
+Last updated: 2024-11-06
+</small>
 
 <script>
   class Job {
