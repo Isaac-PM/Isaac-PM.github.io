@@ -21,10 +21,6 @@ section {
 
 </style>
 
-# Isaac Palma
+# Current work
 
-## Research Assistant at CNCA & External Participant at CERN
-
-## Current work
-
-## Contact information
+# Contact information
