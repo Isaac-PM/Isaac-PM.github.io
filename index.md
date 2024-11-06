@@ -5,8 +5,13 @@
 
   section {
     margin-top: 0 !important;
+    max-width: 800px !important;
   }
 
+  .wrapper {
+    max-width: 800px !important;
+  }
+  
   .job-container {
     display: flex;
     align-items: center;
@@ -47,6 +52,31 @@
   .job-institution {
     font-style: italic;
   }
+
+  .button-midnight {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-size: 0.9em;
+  }
+
+  .button-midnight:hover {
+    background-color: #666;
+    color: #fff;
+    border-color: #888;
+  }
+
+  .button-midnight:active {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+  }
 </style>
 
 # Current work
@@ -75,7 +105,7 @@
           <p>${job.location}</p>
           <p>${job.description}</p>
           <a href="${job.link}" target="_blank">
-            <button>${job.linkTitle}</button>
+            <button class="button-midnight">${job.linkTitle}</button>
           </a>
         </div>
       </div>
