@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Migration of LHCb Algorithms to the GPU-Optimized Allen Framework",
+        "institution": "National Collaboratory for Advanced Computing (CNCA) from the Costa Rica's High Technology Center (CeNAT)",
+        "location": "Costa Rica",
+        "description": "Contributing to the LHCb experiment at CERN by focusing on the migration of algorithms from a CPU-based processing framework to the Allen environment, optimized for GPUs. Allen serves as a core element in data processing for LHCb, allowing for significant performance improvements in real-time event reconstruction and analysis.",
+        "link": "https://gitlab.cern.ch/lhcb/Allen/-/merge_requests/1698",
+        "linkTitle": "GitLab repository"
+    },
+    {
+        "title": "Studies on the Track Resolution Differences Between HLT1 and HLT2 at LHCb's RICH1 Subdetector",
+        "institution": "National Collaboratory for Advanced Computing (CNCA) from the Costa Rica's High Technology Center (CeNAT)",
+        "location": "Costa Rica",
+        "description": "Currently investigating the track resolution discrepancies between HLT1 and HLT2, the two stages of LHCb's High-Level Trigger (HLT) system, specifically at the RICH1 subdetector. This study compares HLT1, which performs partial reconstruction on GPUs, with HLT2, exploring the potential for incorporating RICH1 information into HLT1. These insights may inform future improvements in HLT1’s reconstruction capabilities, potentially enhancing the accuracy and efficiency of early-stage data filtering and event selection.",
+        "link": "https://cds.cern.ch/record/2915324?ln=en",
+        "linkTitle": "Latest project notes"
+    }
+]

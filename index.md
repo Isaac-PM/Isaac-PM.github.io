@@ -1,13 +1,13 @@
 <style>
-#header {
+  #header {
     display: none !important;
-}
+  }
 
-section {
+  section {
     margin-top: 0 !important;
-}
+  }
 
-.job-container {
+  .job-container {
     display: flex;
     align-items: center;
     background-color: #333;
@@ -16,48 +16,76 @@ section {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
-}
+  }
 
-.job-image img {
+  .job-image img {
     width: 200px;
     height: 120px;
     object-fit: cover;
     border-radius: 5px;
     margin-right: 20px;
     border: 3px solid #f0f0f0;
-}
+  }
 
-.job-description h2 {
+  .job-description h2 {
     margin: 0;
     color: #c0c0c0;
     font-size: 1.5em;
-}
+  }
 
-.job-description p {
+  .job-description p {
     margin: 5px 0;
     color: #e0e0e0;
     font-size: 0.9em;
     line-height: 1.4;
-}
+  }
 
-.job-description p strong {
+  .job-description p strong {
     color: #a8a8a8;
-}
+  }
 
-.job-location {
-  font-style: italic;
-}
-
+  .job-institution {
+    font-style: italic;
+  }
 </style>
 
 # Current work
 
+<div id="jobs"></div>
 
-# Contact information
-
-
-<div id="test"></div>
+# More information
 
 <script>
-  document.getElementById('test').innerHTML = 'Hello';
+  class Job {
+    constructor(title, institution, location, description, link, linkTitle) {
+      this.title = title;
+      this.location = location;
+      this.description = description;
+      this.link = link;
+      this.linkTitle = linkTitle;
+    }
+  }
+
+  function jobContainer(job) {
+    return `
+      <div class="job-container">
+        <div class="job-description">
+          <h2>${job.title}</h2>
+          <p class="job-institution">${job.institution}</p>
+          <p>${job.location}</p>
+          <p>${job.description}</p>
+          <a href="${job.link}" target="_blank">
+            <button>${job.linkTitle}</button>
+          </a>
+        </div>
+      </div>
+    `;
+  }
+
+  fetch("jobs.json")
+    .then((response) => response.json())
+    .then((jobs) => {
+      document.getElementById("jobs").innerHTML = jobs.map(jobContainer).join("");
+    })
+    .catch((error) => console.error("Error loading jobs:", error));
 </script>
