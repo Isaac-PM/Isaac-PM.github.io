@@ -87,7 +87,7 @@
 
 - [Curriculum Vitae]()
 - [LinkedIn]()
-- [GitHub]
+- [GitHub]()
 
 <small>
 Last updated: 2024-11-06
