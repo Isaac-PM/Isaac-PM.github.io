@@ -3,16 +3,24 @@
         "title": "Migration of LHCb Algorithms to the GPU-Optimized Allen Framework",
         "institution": "National Collaboratory for Advanced Computing (CNCA) from the Costa Rica's High Technology Center (CeNAT)",
         "location": "Costa Rica",
-        "description": "Participating in engineering activities related to the LHCb experiment at CERN, focusing on migrating algorithms from a CPU processing framework to the Allen environment, which is optimized for GPU use and is a key component in the experiment's data processing.",
+        "description": "Engaged in engineering tasks for the LHCb experiment at CERN as part of the CNCA's partnership, focusing on migrating algorithms from CPU frameworks to the GPU-optimized Allen environment for data processing.",
         "link": "https://gitlab.cern.ch/lhcb/Allen/-/merge_requests/1698",
         "linkTitle": "GitLab repository"
     },
     {
-        "title": "Studies on the Track Resolution Differences Between HLT1 and HLT2 at LHCb's RICH1 Subdetector",
-        "institution": "National Collaboratory for Advanced Computing (CNCA) from the Costa Rica's High Technology Center (CeNAT)",
+        "title": "Physics Without Frontiers Online Workshop: Reading and Manipulating the LHCb Open Data",
+        "institution": "Organized by the International Centre for Theoretical Physics",
         "location": "Costa Rica",
+        "description": "Analyzed LHCb open data to study CP violation in B meson decays. Conducted data pre-processing, invariant mass reconstruction, and Dalitz plot analyzes to explore global and local matter-antimatter asymmetries. Utilized Python and Jupyter notebooks for data manipulation, fitting models, and statistical analysis to evaluate CP asymmetry with high precision. Results underscored the utility of LHCb open data in fundamental physics research.",
+        "link": "https://drive.google.com/drive/folders/183sVksHl5uXsn6G0oJ_WkdZtav6gZkDd?usp=sharing",
+        "linkTitle": "Results Report & Presentation"
+    },
+    {
+        "title": "Studies on the Track Resolution Differences Between HLT1 and HLT2 at LHCb's RICH1 Subdetector",
+        "institution": "European Organization for Nuclear Research (CERN)",
+        "location": "Costa Rica & Switzerland",
         "description": "Currently investigating the track resolution discrepancies between HLT1 and HLT2, the two stages of LHCb's High-Level Trigger (HLT) system, specifically at the RICH1 subdetector. This study compares HLT1, which performs partial reconstruction on GPUs, with HLT2, exploring the potential for incorporating RICH1 information into HLT1. These insights may inform future improvements in HLT1’s reconstruction capabilities, potentially enhancing the accuracy and efficiency of early-stage data filtering and event selection.",
-        "link": "https://cds.cern.ch/record/2915324?ln=en",
+        "link": "https://repository.cern/records/hyzcb-4nn85",
         "linkTitle": "Latest project notes"
     }
 ]
