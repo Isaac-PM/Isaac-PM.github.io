@@ -77,6 +77,18 @@
     color: #fff;
     border-color: #555;
   }
+
+  .job-date {
+    display: inline-block;
+    background-color: #555;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
 </style>
 
 # Current work
@@ -95,12 +107,14 @@ Last updated: 2024-11-06
 
 <script>
   class Job {
-    constructor(title, institution, location, description, link, linkTitle) {
+    constructor(title, institution, location, description, link, linkTitle, date) {
       this.title = title;
+      this.institution = institution;
       this.location = location;
       this.description = description;
       this.link = link;
       this.linkTitle = linkTitle;
+      this.date = date;
     }
   }
 
@@ -108,6 +122,7 @@ Last updated: 2024-11-06
     return `
       <div class="job-container">
         <div class="job-description">
+          <div class="job-date">${job.date}</div> <!-- Date label -->
           <h2>${job.title}</h2>
           <p class="job-institution">${job.institution}</p>
           <p>${job.location}</p>
